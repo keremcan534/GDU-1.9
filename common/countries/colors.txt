@@ -114,8 +114,8 @@ CHI = {
 	color_ui = hsv { 0.18 0.3 0.9 }
 }
 JAP = {
-	color = hsv { 0.05 0.3 1 }
-	color_ui = hsv { 0.05 0.25 1.2 }
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
 }
 NZL = {
 	color = rgb { 152 130 191 }
