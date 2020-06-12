@@ -546,7 +546,7 @@ technologies = {
 		}
 
 		enable_building = {
-			building = anti_air_building
+			building = anti_air
 			level = 5
 		}
 		

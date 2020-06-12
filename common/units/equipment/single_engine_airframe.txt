@@ -1509,6 +1509,8 @@ equipments = {
 
 		interface_category = interface_category_air
 
+		upgrades = {
+		}
 
 		build_cost_ic = 21
 		resources = {

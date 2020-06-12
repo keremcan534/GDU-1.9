@@ -15,6 +15,9 @@ sub_units = {
 		
 		group = support
 		
+		categories = {
+
+		}
 
 		fort = {
 			attack = 0.05
