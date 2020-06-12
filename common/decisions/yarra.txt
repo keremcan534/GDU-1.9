@@ -1,0 +1,25 @@
+flagselector = {
+
+#Decision for: imperialflag
+imperialflag = {
+icon = GFX_decision_category_ger_reichskommissariats
+visible = {
+tag = GER
+}
+complete_effect = {
+set_cosmetic_tag = GER
+}
+}
+
+#Decision for: normalflag
+naziflag = {
+icon = GFX_decision_category_ger_reichskommissariats
+visible = {
+tag = GER
+}
+complete_effect = {
+set_cosmetic_tag = FFF
+}
+}
+
+}

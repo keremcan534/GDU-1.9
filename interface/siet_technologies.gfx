@@ -1,0 +1,40 @@
+spriteTypes = {	
+
+	#SOOOOOOOOOOOOOOOOOOOOOVIET
+SpriteType = {
+		name = "GFX_gwtank_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_t18.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_SOV_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_t34.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_t3485.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/crsk_sov_t3485.dds"
+	}
+	
+
+
+	
+
+############INFANTTRY
+
+
+ 
+ 
+ ############VARIANTS
+### legkie tanki
+	
+	}
+	
+	
+	
+	

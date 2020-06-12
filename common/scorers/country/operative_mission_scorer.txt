@@ -1,0 +1,13 @@
+# Operative mission scorer
+#
+# Only countries which have a strategy enabling the mission (score >0) will run
+# the scorer for the enabled missions.
+#
+# Before traget_trigger runs, any potential target is first checked for the
+# gameplay requirements (e.g. quiet_network mission requires a network over the
+# target).
+#
+# A scorer has to yield a target or the mission will be ignored
+#
+# operative_mission_no_mission_scorer act as a dummy/example
+
