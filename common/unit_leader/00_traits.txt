@@ -113,7 +113,7 @@ leader_traits = {
 		
 		modifier = {
 			army_morale_factor = 0.05
-			max_planning = 0.05
+			max_planning = 0.03
 			
 		}
 		new_commander_weight = {
@@ -140,7 +140,7 @@ leader_traits = {
 		trait_type = personality_trait
 		
 		modifier = {
-			planning_speed = -0.15
+			planning_speed = -0.10
 			army_defence_factor = 0.05
 		}
 		
@@ -153,18 +153,19 @@ leader_traits = {
 		trait_type = personality_trait
 		
 		modifier = {		
-			planning_speed = 0.25
+			planning_speed = 0.20
 			army_attack_factor = 0.05
-			out_of_supply_factor = 0.2
-			supply_consumption_factor = 0.05
-			#encryption_factor = 0.1
+			out_of_supply_factor = 0.1
+			supply_consumption_factor = 0.04
+			encryption_factor = 0.1
 			heat_attrition_factor = 0.02
 			winter_attrition_factor = 0.02
-			no_supply_grace = 8
+			no_supply_grace = 5			
 		}
 		
 		attack_skill_factor = 1
 		defense_skill_factor = -1
+		planning_skill_factor = 1
 	}
 
 	media_personality = { 
@@ -223,7 +224,7 @@ leader_traits = {
 		trait_type = personality_trait
 		
 		modifier = {
-			recon_factor = 0.25
+			recon_factor = 0.15
 		}		
 		attack_skill_factor = 1
 		logistics_skill_factor = 1
@@ -234,9 +235,11 @@ leader_traits = {
 		trait_type = personality_trait
 		
 		modifier = {
-			supply_consumption_factor = 0.06
+			supply_consumption_factor = 0.01
 		}
-
+		
+		override_effect_tooltip = armor_officer_GDU  
+		
 		attack_skill_factor = 1
 		planning_skill_factor = 1
 	}
@@ -271,9 +274,9 @@ leader_traits = {
 		}
 		cost = 1000
 		field_marshal_modifier = {
-			org_loss_when_moving = -0.4
-			planning_speed = 0.15
-			offence = 0.05
+			org_loss_when_moving = -0.35
+			planning_speed = 0.10
+			#offence = 0.05
 		}
 		
 		ai_will_do = {
@@ -293,7 +296,7 @@ leader_traits = {
 		cost = 1000
 		field_marshal_modifier = {
 			max_dig_in_factor = 0.2
-			dig_in_speed_factor = 0.15
+			dig_in_speed_factor = 0.1 
 		}
 		
 		ai_will_do = {
@@ -311,7 +314,7 @@ leader_traits = {
 		}
 		cost = 1000
 		field_marshal_modifier = {
-			planning_speed = 0.25
+			planning_speed = 0.2
 		}
 		
 		ai_will_do = {
@@ -331,8 +334,7 @@ leader_traits = {
 		}
 		cost = 1000
 		field_marshal_modifier = {
-			max_planning = 0.125
-			planning_speed = -0.25
+			max_planning = 0.075
 		}
 		
 		ai_will_do = {
@@ -357,7 +359,7 @@ leader_traits = {
 
 		cost = 1000
 		field_marshal_modifier = {
-			defence = 0.15
+			defence = 0.10
 		}
 		custom_effect_tooltip = INCREASED_COUNTERATTACK_CHANCE
 
@@ -383,7 +385,7 @@ leader_traits = {
 		modifier = {
 		}
 		field_marshal_modifier = {
-			breakthrough_factor = 0.125
+			breakthrough_factor = 0.10
 		}
 		custom_effect_tooltip = INCREASED_ASSAULT_AND_SHOCK_CHANCE
 		ai_will_do = {
@@ -402,7 +404,7 @@ leader_traits = {
 		}
 		cost = 1000
 		field_marshal_modifier = {
-			land_reinforce_rate = 0.05
+			land_reinforce_rate = 0.07
 		}
 		
 		ai_will_do = {
@@ -420,7 +422,7 @@ leader_traits = {
 		}
 		cost = 1000
 		field_marshal_modifier = {
-			army_morale_factor = 0.05
+			army_morale_factor = 0.10
 		}
 		
 		ai_will_do = {
@@ -439,8 +441,7 @@ leader_traits = {
 		
 		field_marshal_modifier = {
 			land_reinforce_rate = 0.05
-			out_of_supply_factor = -0.02
-			#decryption_factor = 0.1
+			decryption_factor = 0.1
 		}
 		
 		ai_will_do = {
@@ -473,9 +474,9 @@ leader_traits = {
 	cavalry_leader = { 
 		type = corps_commander	
 		modifier = {
-			motorized_defence_factor = 0.075
-			mechanized_defence_factor = 0.075
-			cavalry_defence_factor = 0.075
+			motorized_defence_factor = 0.05
+			mechanized_defence_factor = 0.05
+			cavalry_defence_factor = 0.05
 		}
 		
 		ai_will_do = {
@@ -502,8 +503,8 @@ leader_traits = {
 		
 		corps_commander_modifier = {
 			dig_in_speed_factor = 0.15
-			land_reinforce_rate = 0.05
-			recon_factor = 0.1
+			land_reinforce_rate = 0.02
+			recon_factor = 0.05
 		}
 		
 		ai_will_do = {
@@ -516,7 +517,7 @@ leader_traits = {
 	trickster = { 
 		type = corps_commander
 		
-		#cost = 500
+		cost = 500
 		modifier = {
 			recon_factor = 0.25
 		}
@@ -533,7 +534,7 @@ leader_traits = {
 		type = corps_commander
 
 		modifier = {
-			winter_attrition_factor = -0.175
+			winter_attrition_factor = -0.15
 		}
 		
 		ai_will_do = {
@@ -551,7 +552,7 @@ leader_traits = {
 		}
 		cost = 1000
 		modifier = {
-			terrain_penalty_reduction = 0.2
+			terrain_penalty_reduction = 0.20
 		}
 		
 		ai_will_do = {
@@ -581,7 +582,7 @@ leader_traits = {
 		}
 
 		modifier = {
-			winter_attrition_factor = -0.2
+			winter_attrition_factor = -0.15
 		}
 		
 		ai_will_do = {
@@ -606,10 +607,10 @@ leader_traits = {
 		cost = 700
 		modifier = {
 			river = {
-				attack = 0.1
+				attack = 0.075
 			}
 			fort = {
-                attack = 0.1
+                attack = 0.075
             }
 		}
 		
@@ -624,10 +625,10 @@ leader_traits = {
 	panzer_leader = {
  		type = corps_commander
 		modifier = {
-			army_armor_speed_factor = 0.02
-			army_armor_attack_factor = 0.075
+			army_armor_speed_factor = 0.015
+			army_armor_attack_factor = 0.06
 			motorized_attack_factor = 0.05
-			mechanized_attack_factor = 0.075
+			mechanized_attack_factor = 0.05
 		}
 		
 		ai_will_do = {
@@ -642,7 +643,7 @@ leader_traits = {
 	commando = { 
  		type = corps_commander
 		modifier = {
-			out_of_supply_factor = -0.225
+			out_of_supply_factor = -0.2
 		}
 		
 		ai_will_do = {
@@ -689,13 +690,13 @@ leader_traits = {
 		modifier = {
 			mountain = {
 				movement = 0.02
-				attack = 0.1
-				defence = 0.1
+				attack = 0.08
+				defence = 0.08
 			}
 			gibraltar = {
 				movement = 0.02
-				attack = 0.1
-				defence = 0.1
+				attack = 0.08
+				defence = 0.08
 			}			
 		}
 		
@@ -744,8 +745,8 @@ leader_traits = {
 		type = corps_commander
 		modifier = {
 			forest = {
-				attack = 0.05
-				defence = 0.05
+				attack = 0.04
+				defence = 0.04
 			}
 		}
 		
@@ -761,8 +762,8 @@ leader_traits = {
 		modifier = {
 			urban = {
 				movement = 0.02
-				attack = 0.1
-				defence = 0.1
+				attack = 0.08
+				defence = 0.08
 			}
 		}
 		
@@ -777,7 +778,7 @@ leader_traits = {
 	naval_invader = {
 		type = corps_commander
 		modifier = {
-			amphibious_invasion = 0.05 # 30% faster invasions
+			amphibious_invasion = 0.1 # 30% faster invasions
 			invasion_preparation = -0.33
 		}
 		
@@ -802,7 +803,7 @@ leader_traits = {
 		modifier = {
 			army_armor_defence_factor = 0.10
 			motorized_defence_factor = 0.05
-			mechanized_defence_factor = 0.075
+			mechanized_defence_factor = 0.05
 		}
 		
 		custom_effect_tooltip = INCREASED_BLITZ_AND_ENCIRCLEMENT_CHANCE
@@ -856,9 +857,9 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			cavalry_attack_factor = 0.075
-			motorized_attack_factor = 0.075
-			mechanized_attack_factor = 0.075
+			cavalry_attack_factor = 0.05
+			motorized_attack_factor = 0.05
+			mechanized_attack_factor = 0.05
 
 		}
 		
@@ -877,14 +878,14 @@ leader_traits = {
 	
 	fortress_buster = {
 		type = corps_commander
-
-		#enable_ability = siege_artillery
-		modifier = {
-			fort = {
-				attack = 0.4
+		gain_xp = {
+			OR = {
+				has_combat_modifier = fort_attack
+				dig_in > 10
 			}
-			org_loss_when_moving = -0.1	
 		}
+		cost = 700
+		enable_ability = siege_artillery
 		
 		ai_will_do = {
 			factor = 1
@@ -945,7 +946,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			max_dig_in = 2
+			max_dig_in = 2.5
 			recon_factor_while_entrenched = 0.25
 		}
 		
@@ -967,8 +968,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			extra_marine_supply_grace = 180
-			out_of_supply_factor = -0.5
+			extra_marine_supply_grace = 240
 		}		
 		
 		ai_will_do = {
@@ -987,8 +987,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			shore_bombardment_bonus = 0.35
-			land_reinforce_rate = 0.02
+			shore_bombardment_bonus = 0.33
 		}
 		
 		ai_will_do = {
@@ -1029,8 +1028,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			extra_paratrooper_supply_grace = 320
-			out_of_supply_factor = -0.1
+			extra_paratrooper_supply_grace = 240
 		}
 		
 		enable_ability = glider_planes
@@ -1053,9 +1051,8 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			cas_damage_reduction = 0.1
-			air_superiority_bonus_in_combat = -0.05
-			recon_factor_while_entrenched = 0.1
+			cas_damage_reduction = 0.075
+			air_superiority_bonus_in_combat = -0.1
 		}
 		
 		ai_will_do = {
@@ -1128,7 +1125,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			dig_in_speed_factor = 0.33
+			dig_in_speed_factor = 0.25
 		}
 		
 		ai_will_do = {
@@ -1177,7 +1174,7 @@ leader_traits = {
 		cost = 500
 		modifier = {
 			screening_efficiency = 0.2
-			convoy_escort_efficiency = 0.075
+			convoy_escort_efficiency = 0.05
 		}
 		
 		ai_will_do = {
@@ -1196,7 +1193,7 @@ leader_traits = {
 		modifier = {
 			naval_retreat_chance = 0.1
 			naval_retreat_speed = 0.05
-			convoy_retreat_speed = 0.075
+			convoy_retreat_speed = 0.05
 			naval_coordination = 0.03
 		}
 		custom_gain_xp_trigger_tooltip = BLOCKADE_RUNNER_TRIGGER_TT
@@ -1257,7 +1254,7 @@ leader_traits = {
 		}
 		cost = 300
 		modifier = {
-			navy_anti_air_attack_factor = 0.15
+			navy_anti_air_attack_factor = 0.1
 		}
 		custom_gain_xp_trigger_tooltip = FLY_SWATTER_TRIGGER_TT
 		ai_will_do = {
@@ -1278,7 +1275,7 @@ leader_traits = {
 		custom_gain_xp_trigger_tooltip = IRONSIDE_TRIGGER_TT
 		cost = 500
 		modifier = {
-			navy_capital_ship_defence_factor = 0.025
+			navy_capital_ship_defence_factor = 0.05
 			critical_receive_chance = -0.1
 			naval_morale_factor = 0.05
 		}
@@ -1318,13 +1315,13 @@ leader_traits = {
 	silent_hunter = { 
 		type = navy
 		modifier = {
-			naval_torpedo_reveal_chance_factor = -0.2
+			naval_torpedo_reveal_chance_factor = -0.10
 			navy_submarine_attack_factor = 0.15
 			navy_submarine_defence_factor = 0.05
 			convoy_raiding_efficiency_factor = 0.1
-			spotting_chance = 0.075
+			spotting_chance = 0.05 							
 			naval_hit_chance = 0.025
-			sub_retreat_speed = 0.075
+			sub_retreat_speed = 0.05
 		}
 
 		ai_will_do = {
@@ -1357,7 +1354,7 @@ leader_traits = {
 	lancer = {
 		type = navy
 		modifier = {
-			naval_torpedo_screen_penetration_factor = 0.125
+			naval_torpedo_screen_penetration_factor = 0.1
 		}
 				
 		ai_will_do = {
@@ -1378,14 +1375,15 @@ leader_traits = {
 
 	destroyer_leader = {
 		type = navy
-		#modifier = {
-		#	destroyer = {
-		#		units = {
-		#			attack = 0.1
-		#			defence = 0.1
-		#		}
-		#	}
-		#}
+		modifier = {
+			#destroyer = {
+			#	units = {
+			#		attack = 0.1
+			#		defence = 0.1
+			#	}
+			#}
+			convoy_escort_efficiency = 0.1
+		}
 		
 		sub_unit_modifiers = {
 			destroyer = {
@@ -1406,7 +1404,7 @@ leader_traits = {
 	loading_drill_master = {
 		type = navy
 		modifier = {
-			naval_torpedo_cooldown_factor = -0.15
+			naval_torpedo_cooldown_factor = -0.125
 		}
 				
 		ai_will_do = {
@@ -1431,7 +1429,7 @@ leader_traits = {
 		sub_unit_modifiers = {
 			destroyer = {
 				navy_submarine_detection_factor = 0.05
-				navy_submarine_attack_factor = 0.075
+				navy_submarine_attack_factor = 0.05
 			}
 		}
 				
@@ -1478,8 +1476,8 @@ leader_traits = {
 			 spotting_chance = 0.1
 			 naval_coordination = 0.025
 			 naval_speed_factor = 0.01
-			 navy_submarine_detection_factor = 0.075
-			 convoy_raiding_efficiency_factor = 0.075
+			 navy_submarine_detection_factor = 0.05
+			 convoy_raiding_efficiency_factor = 0.05
 		}
 				
 		ai_will_do = {
@@ -1571,7 +1569,7 @@ leader_traits = {
 	ground_pounder = { 
 		type = navy
 		modifier = {
-			shore_bombardment_bonus = 0.2
+			shore_bombardment_bonus = 0.165 
 		}
 				
 		ai_will_do = {
@@ -1603,8 +1601,8 @@ leader_traits = {
 	marksman = { 
 		type = navy
 		modifier = {
-			naval_hit_chance = 0.025
-			naval_critical_score_chance_factor = 0.15
+			naval_hit_chance = 0.05
+			naval_critical_score_chance_factor = 0.1
 		}
 				
 		ai_will_do = {
@@ -1653,7 +1651,7 @@ leader_traits = {
 	fighter_director = { 
 		type = navy
 		modifier = {
-			fighter_sortie_efficiency = 0.175
+			fighter_sortie_efficiency = 0.1
 		}
 				
 		ai_will_do = {
@@ -1670,7 +1668,7 @@ leader_traits = {
 		type = navy
 		sub_unit_modifiers = {
 			cv_cas = {
-				air_mission_efficiency = 0.25
+				air_mission_efficiency = 0.2
 			}
 		}	
 		ai_will_do = {
@@ -1714,7 +1712,7 @@ leader_traits = {
 		cost = 1000
 		
 		modifier = {
-			naval_attrition = -0.2
+			naval_attrition = -0.05
 		}
 
 		ai_will_do = {
@@ -1846,7 +1844,7 @@ leader_traits = {
 		
 		modifier = {
 			naval_damage_factor = 0.05
-			naval_defense_factor = -0.075
+			naval_defense_factor = -0.05
 		}
 		
 		ai_will_do = {
@@ -1858,7 +1856,7 @@ leader_traits = {
 		trait_type = personality_trait
 		
 		modifier = {
-			critical_receive_chance = -0.1
+			critical_receive_chance = -0.05
 		}
 		
 		ai_will_do = {
@@ -2009,7 +2007,6 @@ leader_traits = {
 		trait_type = status_trait
 		modifier = {
 			army_morale_factor = 0.15 
-			supply_consumption_factor = 0.05
 		}
 	}
 	
@@ -2068,8 +2065,8 @@ leader_traits = {
 		}
 		
 		modifier = {
-			exiled_divisions_attack_factor = 0.1
-			exiled_divisions_defense_factor = 0.1
+			exiled_divisions_attack_factor = 0.05
+			exiled_divisions_defense_factor = 0.05
 	
 		}
 		
