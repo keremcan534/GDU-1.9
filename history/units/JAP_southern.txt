@@ -319,4 +319,10 @@ units = {
 		division_template = "Kongo Hohei Ryodan"
 		start_experience_factor = 0.3
 	}
-}
+	
+	
+	
+	
+
+
+

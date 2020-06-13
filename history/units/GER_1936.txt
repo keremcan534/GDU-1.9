@@ -39,47 +39,6 @@
 		anti_air = { x = 0 y = 5 }
 	}
 }
-division_template = {
-	name = "Panzer-Division"
-
-	regiments = {
-		motorized = { x = 0 y = 0 }
-	    motorized = { x = 0 y = 1 }
-		motorized = { x = 0 y = 2 }
-		motorized = { x = 0 y = 3 }
-
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
-		mot_anti_air_brigade = { x = 1 y = 3 }		
-	    
-		medium_armor = { x = 2 y = 0 }
-		medium_armor = { x = 2 y = 1 }
-		medium_armor = { x = 2 y = 2 }
-		medium_armor = { x = 2 y = 3 }
-		medium_armor = { x = 2 y = 4 }		
-		
-		medium_armor = { x = 3 y = 0 }
-		medium_armor = { x = 3 y = 1 }
-		medium_armor = { x = 3 y = 2 }
-		medium_armor = { x = 3 y = 3 }
-		medium_armor = { x = 3 y = 4 }
-		
-		medium_armor = { x = 4 y = 0 }
-		medium_armor = { x = 4 y = 1 }
-
-	}
-	support = {
-        engineer = { x = 0 y = 0 }
-        recon = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
-		logistics_company = { x = 0 y = 3 }
-		anti_tank = { x = 0 y = 4 }
-		anti_air = { x = 0 y = 5 }
-	}
-priority = 2
-	
-}
 
 division_template = {
 	name = "Leichte-Division"
@@ -507,7 +466,7 @@ air_wings = {
      56 = {
 		# Vuzdushnite voiski na Negovo Velichestvo
 		fighter_equipment_0 =  {
-			creator = "BUL"
+			
 			owner = "GER" 
 			amount = 100
 		}
@@ -536,6 +495,14 @@ air_wings = {
 		}
 
 	}
+	 56 = {
+		# 3. Légi Ezred -- Caproni Ca.101, WM-16 Budapest light bombers
+		CAS_equipment_1 = {
+			creator = "HUN"
+			owner = "GER" 
+			amount = 100
+		}
+	}
 
 
 
@@ -553,82 +520,71 @@ air_wings = {
 			amount = 100
 			version_name = "Bf 109 E"
 		}
-		fighter_equipment_1 =  {		# bf109s
+				fighter_equipment_1 =  {		# bf109s
 			owner = "GER" 
 			amount = 100
 			version_name = "Bf 109 E"
 		}
-		fighter_equipment_1 =  {		# bf109s
+				fighter_equipment_1 =  {		# bf109s
 			owner = "GER" 
 			amount = 100
 			version_name = "Bf 109 E"
 		}
-		fighter_equipment_1 =  {		# bf109s
+				fighter_equipment_1 =  {		# bf109s
 			owner = "GER" 
 			amount = 100
 			version_name = "Bf 109 E"
 		}
-		fighter_equipment_1 =  {		# bf109s
+				fighter_equipment_1 =  {		# bf109s
 			owner = "GER" 
 			amount = 100
 			version_name = "Bf 109 E"
 		}
-		fighter_equipment_1 =  {		# bf109s
+				fighter_equipment_1 =  {		# bf109s
 			owner = "GER" 
 			amount = 100
 			version_name = "Bf 109 E"
 		}
-		fighter_equipment_1 =  {		# bf109s
+				fighter_equipment_1 =  {		# bf109s
 			owner = "GER" 
 			amount = 100
 			version_name = "Bf 109 E"
 		}
-		fighter_equipment_1 =  {		# bf109s
+				fighter_equipment_1 =  {		# bf109s
 			owner = "GER" 
 			amount = 100
 			version_name = "Bf 109 E"
 		}
-		fighter_equipment_1 =  {		# bf109s
+				fighter_equipment_1 =  {		# bf109s
 			owner = "GER" 
 			amount = 100
 			version_name = "Bf 109 E"
 		}
-		fighter_equipment_1 =  {		# bf109s
+				fighter_equipment_1 =  {		# bf109s
 			owner = "GER" 
 			amount = 100
 			version_name = "Bf 109 E"
 		}
-		fighter_equipment_1 =  {		# bf109s
+				fighter_equipment_1 =  {		# bf109s
 			owner = "GER" 
 			amount = 100
 			version_name = "Bf 109 E"
 		}
-		fighter_equipment_1 =  {		# bf109s
+				fighter_equipment_1 =  {		# bf109s
 			owner = "GER" 
 			amount = 100
 			version_name = "Bf 109 E"
 		}
-		fighter_equipment_1 =  {		# bf109s
+				fighter_equipment_1 =  {		# bf109s
 			owner = "GER" 
 			amount = 100
 			version_name = "Bf 109 E"
 		}
-		fighter_equipment_1 =  {		# bf109s
+				fighter_equipment_1 =  {		# bf109s
 			owner = "GER" 
 			amount = 100
 			version_name = "Bf 109 E"
-		}
-		fighter_equipment_1 =  {		# bf109s
-			owner = "GER" 
-			amount = 100
-			version_name = "Bf 109 E"
-		}
-		fighter_equipment_1 =  {		# bf109s
-		owner = "GER" 
-		amount = 100
-		version_name = "Bf 109 E"
-	}
-
+		}		
 
 	}
 		64 = { 
@@ -640,6 +596,10 @@ air_wings = {
 		CAS_equipment_1 =  {			# Hs 123
 			owner = "GER" 
 			amount = 100
+		}
+		CAS_equipment_1 =  {			# Hs 123
+			owner = "GER" 
+			amount = 100
 		}		
 		CAS_equipment_1 =  {			# Hs 123
 			owner = "GER" 
@@ -649,6 +609,14 @@ air_wings = {
 			owner = "GER" 
 			amount = 100
 		}		
+		CAS_equipment_1 =  {			# Hs 123
+			owner = "GER" 
+			amount = 100
+		}
+		CAS_equipment_1 =  {			# Hs 123
+			owner = "GER" 
+			amount = 100
+		}
 		# Kampfgeschwader 154	
 		tac_bomber_equipment_1 = {		# Do 23
 			owner = "GER" 
@@ -666,29 +634,22 @@ air_wings = {
 			owner = "GER" 
 			amount = 100
 		}
-		tac_bomber_equipment_1 = {		# Do 23
+		tac_bomber_equipment_0 = {		# Do 23
 			owner = "GER" 
 			amount = 100
 		}
-		tac_bomber_equipment_1 = {		# Do 23
-			owner = "GER" 
-			amount = 100
-		}
-		tac_bomber_equipment_1 = {		# Do 23
-			owner = "GER" 
-			amount = 100
-		}
-		tac_bomber_equipment_1 = {		# Do 23
+	tac_bomber_equipment_0 = {		# Do 23
 			owner = "GER" 
 			amount = 100
 		}
 	}
 	61 = {
-		transport_plane_equipment_1 = {
+			transport_plane_equipment_1 = {
 			owner = "GER" 
-			amount = 20
+			amount = 5
 		}
 	}
+
 	### VI. Luftkreiskommando -- Kiel ###
 	58 = { 
 		# Küstenfliegergruppe 106		
@@ -711,9 +672,9 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "GER"
 		}
-		requested_factories = 3
+		requested_factories = 1
 		progress = 0.1
-		efficiency = 100
+		efficiency = 50
 	}
 
 	add_equipment_production = {
@@ -721,9 +682,9 @@ instant_effect = {
 			type = artillery_equipment_1
 			creator = "GER" 
 		}
-		requested_factories = 3
+		requested_factories = 1
 		progress = 0.3
-		efficiency = 100
+		efficiency = 50
 	}
 		add_equipment_production = {
 		equipment = {
@@ -732,14 +693,14 @@ instant_effect = {
 		}
 		requested_factories = 1
 		progress = 0.3
-		efficiency = 10
+		efficiency = 50
 	}
 		add_equipment_production = {
 		equipment = {
 			type = anti_air_equipment_1
 			creator = "GER" 
 		}
-		requested_factories = 3
+		requested_factories = 1
 		progress = 0.3
 		efficiency = 50
 	}
@@ -758,11 +719,38 @@ instant_effect = {
 			type = light_tank_equipment_2
 			creator = "GER" 
 		}
-		requested_factories = 8
+		requested_factories = 3
 		progress = 0.4
-		efficiency = 70
+		efficiency = 50
 	}
 
+		add_equipment_production = {
+		equipment = {
+			type = light_tank_artillery_equipment_2
+			creator = "GER" 
+		}
+		requested_factories = 3
+		progress = 0.4
+		efficiency = 50
+	}
+		add_equipment_production = {
+		equipment = {
+			type = light_tank_destroyer_equipment_2
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+		add_equipment_production = {
+		equipment = {
+			type = light_tank_aa_equipment_2
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}	
 	add_equipment_production = {
 		equipment = {
 			type = motorized_equipment_1
@@ -779,9 +767,9 @@ instant_effect = {
 			creator = "GER" 
 			version_name = "Bf 109 E"
 		}
-		requested_factories = 25
+		requested_factories = 30
 		progress = 0.15
-		efficiency = 40
+		efficiency = 50
 	}
 
 	add_equipment_production = {
@@ -789,18 +777,18 @@ instant_effect = {
 			type = CAS_equipment_1
 			creator = "GER" 
 		}
-		requested_factories = 5
+		requested_factories = 2
 		progress = 0.2
-		efficiency = 30
+		efficiency = 50
 	}
 		add_equipment_production = {
 		equipment = {
 			type = tac_bomber_equipment_1
 			creator = "GER" 
 		}
-		requested_factories = 4
+		requested_factories = 1
 		progress = 0.2
-		efficiency = 90
+		efficiency = 50
 	}
 	
 }

@@ -16,7 +16,7 @@ NDefines.NCountry.PROVINCE_SCORE_MULTIPLIER = 0				-- Based on number of control
 
 ---------------------------	
 
-NDefines.NGame.GAME_SPEED_SECONDS = { 0.38, 0.19, 0.14, 0.04, 0.0 }
+
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 240 -- these defines are most likely hourly and not daily , rever to 100 and 130 if desyncs during someone lagging for 10 days
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 240
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 2

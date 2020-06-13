@@ -201,10 +201,6 @@ technologies = {
 			name = air_techs_folder
 			position = { x = 0 y = 6 }
 		}
-		folder = {
-			name = secret_weapons_folder
-			position = { x = 6 y = 8 }
-		}
 		
 		categories = {
 			light_air
@@ -741,16 +737,15 @@ technologies = {
 		}
 		
 		allow = { 
-			NOT =
-				{
-					TAG = CHI
-					TAG = PRC
-					TAG = GXC
-					TAG = YUN
-					TAG = XSM
-					TAG = SHX
-					TAG = SIK					
-				}
+			NOT = {
+				TAG = CHI
+#					TAG = PRC
+#					TAG = GXC
+#					TAG = YUN
+#					TAG = XSM
+#					TAG = SHX
+#					TAG = SIK					
+			}
 		}
 
 		research_cost = 2

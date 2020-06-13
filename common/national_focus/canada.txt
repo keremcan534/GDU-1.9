@@ -1,4 +1,5 @@
 focus_tree = {
+	id = canadian_focus
 
 	country = {
 		factor = 0
@@ -2032,7 +2033,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = CAN_1st_canadian_parachute_battalion
 				bonus = 2.00
-				uses = 2
+				uses = 1
 				category = para_tech
 			}
 		}
@@ -2072,7 +2073,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = CAN_the_black_devils
 				bonus = 1.00
-				uses = 2
+				uses = 1
 				category = marine_tech
 				category = para_tech
 			}
@@ -2081,7 +2082,7 @@ focus_tree = {
 
 	focus = {
 		id = CAN_the_rocky_mountain_rangers
-		icon = GFX_goal_CAN_special_forces
+		icon = GFX_goal_generic_special_forces
 		prerequisite = { focus = CAN_red_deer_training_camp }
 		x = 1
 		y = 5
@@ -2474,10 +2475,13 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			hidden_effect = {
-				set_technology = { lar_decryption_bonus_tech = 1 }
+			add_tech_bonus = {
+				name = CAN_camp_x
+				bonus = 1.00
+				uses = 1
+				category = encryption_tech
+				category = decryption_tech
 			}
-			custom_effect_tooltip = lar_decryption_bonus_tt
 		}
 	}
 

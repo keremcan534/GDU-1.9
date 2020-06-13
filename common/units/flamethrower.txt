@@ -4,7 +4,6 @@ sub_units = {
 		map_icon_category = infantry
 		priority = 0
 		active = no
-		affects_speed = no
 
 		type = {
 			infantry
@@ -24,7 +23,7 @@ sub_units = {
 	
 		#Size Definitions
 		max_strength = 1
-		max_organisation = 45
+		max_organisation = 35
 		default_morale = 0.3
 		manpower = 500
 		training_time = 120

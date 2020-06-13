@@ -100,29 +100,29 @@ ideas = {
 						#}
 					}
 				}
-#				#Special rules AST in TFV
-#				if = {
-#					limit = {
-#						original_tag = AST
-#						has_dlc = "Together for Victory"
-#					}
-#					has_completed_focus = AST_fight_work_or_perish
-#				}
-#				if = {
-#					limit = {
-#						original_tag = CAN
-#						has_dlc = "Together for Victory"
-#					}
-#					has_completed_focus = CAN_commit_to_the_war
-#					has_completed_focus = CAN_if_day
-#				}
-#				if = {
-#					limit = {
-#						original_tag = RAJ
-#						has_dlc = "Together for Victory"
-#					}
-#					date > 1941.1.1
-#				}
+				#Special rules AST in TFV
+				if = {
+					limit = {
+						original_tag = AST
+						has_dlc = "Together for Victory"
+					}
+					has_completed_focus = AST_fight_work_or_perish
+				}
+				if = {
+					limit = {
+						original_tag = CAN
+						has_dlc = "Together for Victory"
+					}
+					has_completed_focus = CAN_commit_to_the_war
+					has_completed_focus = CAN_if_day
+				}
+				if = {
+					limit = {
+						original_tag = RAJ
+						has_dlc = "Together for Victory"
+					}
+					date > 1941.1.1
+				}
 
 			}
 
@@ -173,24 +173,24 @@ ideas = {
 					}
 				}
 
-#				if = {
-#					limit = {
-#						original_tag = AST
-#						has_dlc = "Together for Victory"
-#					}
-#					has_completed_focus = AST_fight_work_or_perish
-#				}
-#
-#				if = {
-#					limit = {
-#						original_tag = CAN
-#						has_dlc = "Together for Victory"
-#					}
-#					OR = {
-#						has_completed_focus = CAN_compromise_with_quebec
-#						has_completed_focus = CAN_forced_quebec_conscription
-#					}
-#				}
+				if = {
+					limit = {
+						original_tag = AST
+						has_dlc = "Together for Victory"
+					}
+					has_completed_focus = AST_fight_work_or_perish
+				}
+
+				if = {
+					limit = {
+						original_tag = CAN
+						has_dlc = "Together for Victory"
+					}
+					OR = {
+						has_completed_focus = CAN_compromise_with_quebec
+						has_completed_focus = CAN_forced_quebec_conscription
+					}
+				}
 				if = {
 					limit = {
 						original_tag = RAJ
@@ -233,11 +233,23 @@ ideas = {
 			level = 3
 
 			modifier = {
-				conscription = 0.08
+				conscription = 0.09
 				training_time_factor = 0.2
+				max_dig_in = -5
+				cas_damage_reduction = -0.025
+				enemy_army_bonus_air_superiority_factor = 0.025
+				army_attack_factor = -0.01
+				army_defence_factor = -0.01
+				army_armor_attack_factor = 0.01
+				army_armor_defence_factor = 0.01
+				special_forces_attack_factor = 0.01
+				special_forces_defence_factor = 0.01
+				motorized_attack_factor = 0.01
+				motorized_defence_factor = 0.01		
 				army_core_attack_factor = 0.015
 				army_core_defence_factor = 0.015
-			}
+				army_morale_factor = 0.015				
+			}	
 
 			cancel_if_invalid = no
 		}
@@ -343,14 +355,14 @@ ideas = {
 				#	}
 				#}
 
-#				if = {
-#					limit = {
-#						original_tag = AST
-#						has_dlc = "Together for Victory"
-#					}
-#						has_completed_focus = AST_fight_work_or_perish
-#				}
-#
+				if = {
+					limit = {
+						original_tag = AST
+						has_dlc = "Together for Victory"
+					}
+					has_completed_focus = AST_fight_work_or_perish
+				}
+
 				if = {
 					limit = {
 						original_tag = CAN
@@ -393,8 +405,8 @@ ideas = {
 				modifier = { # china relies a lot on throwing bodies at the enemy
 					factor = 3
 
-#					tag = CHI
-#					has_manpower < 200000
+					tag = CHI
+					has_manpower < 200000
 				}
 			}
 
@@ -403,11 +415,22 @@ ideas = {
 			level = 2
 
 			modifier = {
-				conscription = 0.1
+				conscription = 0.11
+				max_dig_in = -10
 				training_time_factor = 0.3
-				army_core_attack_factor = 0.05
-				army_core_defence_factor = 0.05
-				army_morale_factor = 0.035
+				cas_damage_reduction = -0.05
+				enemy_army_bonus_air_superiority_factor = 0.05
+				army_attack_factor = -0.02
+				army_defence_factor = -0.02
+				army_armor_attack_factor = 0.02
+				army_armor_defence_factor = 0.02
+				special_forces_attack_factor = 0.02
+				special_forces_defence_factor = 0.02
+				motorized_attack_factor = 0.02
+				motorized_defence_factor = 0.02						
+				army_core_attack_factor = 0.03
+				army_core_defence_factor = 0.03
+				army_morale_factor = 0.03				
 			}
 
 			cancel_if_invalid = no
@@ -595,13 +618,13 @@ ideas = {
 				#		ratio > 1
 				#	}
 				#}
-#				if = {
-#					limit = {
-#						original_tag = AST
-#						has_dlc = "Together for Victory"
-#					}
-##						has_completed_focus = AST_fight_work_or_perish
-#				}
+				if = {
+					limit = {
+						original_tag = AST
+						has_dlc = "Together for Victory"
+					}
+					has_completed_focus = AST_fight_work_or_perish
+				}
 
 				if = {
 					limit = {
@@ -647,10 +670,21 @@ ideas = {
 			level = 1
 
 			modifier = {
-				conscription = 0.12
+				conscription = 0.13
+				max_dig_in = -15
 				training_time_factor = 0.5
-				army_core_attack_factor = 0.06
-				army_core_defence_factor = 0.06
+				cas_damage_reduction = -0.075
+				enemy_army_bonus_air_superiority_factor = 0.075
+				army_attack_factor = -0.03
+				army_defence_factor = -0.03
+				army_armor_attack_factor = 0.03
+				army_armor_defence_factor = 0.03
+				special_forces_attack_factor = 0.03
+				special_forces_defence_factor = 0.03
+				motorized_attack_factor = 0.03
+				motorized_defence_factor = 0.03						
+				army_core_attack_factor = 0.045
+				army_core_defence_factor = 0.045
 				army_morale_factor = 0.045
 			}
 

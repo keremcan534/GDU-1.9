@@ -25,6 +25,7 @@
 	support = {
 		engineer = { x = 0 y = 0 } 	# (semi-mot) Engineer bn
 		recon = { x = 0 y = 1 } 		# Recon bn had 16 L tanks, 10 ACs, 1x mot inf co #Eng and recon removed and they seem rather OP. Could revisit if balance changes
+		logistics_company { x = 0 y = 2 } 
 		artillery = { x = 0 y = 3 }
 		anti_air = { x = 0 y = 4 }		
 	}
@@ -60,6 +61,7 @@ division_template = {
 	support = {
         engineer = { x = 0 y = 0 }
         recon = { x = 0 y = 1 }
+		logistics_company { x = 0 y = 2 } 
 		anti_air = { x = 0 y = 3 }
 	}
 }
@@ -104,6 +106,7 @@ division_template = {
 			support = {
        	engineer = { x = 0 y = 0 }
        	recon = { x = 0 y = 1 }
+		logistics_company { x = 0 y = 2 } 
 		artillery = { x = 0 y = 3 }
 		anti_air = { x = 0 y = 4 }		
 	}	
@@ -354,6 +357,21 @@ air_wings = {
 	### IJA Air Forces ###
 	# 1 Hikodan -- Tokyo
 	609 = { 
+		# 1 Hiko Rentai -- Kawasaki Ki-10
+		fighter_equipment_1 = {
+			owner = "JAP" 
+			amount = 100
+		}
+		# 1 Hiko Rentai -- Kawasaki Ki-10
+		fighter_equipment_1 = {
+			owner = "JAP" 
+			amount = 100
+		}
+		# 1 Hiko Rentai -- Kawasaki Ki-10
+		fighter_equipment_1 = {
+			owner = "JAP" 
+			amount = 100
+		}
 		# 16 Hiko Rentai -- Kawasaki Ki-10
 		fighter_equipment_1 = {
 			owner = "JAP" 
@@ -370,6 +388,10 @@ air_wings = {
 			amount = 100
 		}
 		# 6 Hiko Rentai -- Mitsubishi Ki-2
+		CAS_equipment_1 =  {
+			owner = "JAP" 
+			amount = 100
+		}
 		CAS_equipment_1 =  {
 			owner = "JAP" 
 			amount = 100
@@ -403,13 +425,9 @@ air_wings = {
 			owner = "JAP" 
 			amount = 100
 		}
-		cv_nav_bomber_equipment_1 = {
-			owner = "JAP" 
-			amount = 100
-		}
 		cv_CAS_equipment_1 = {
 			owner = "JAP" 
-			amount = 100
+			amount = 30
 		}
 	 }
 
@@ -429,7 +447,7 @@ instant_effect =
 			type = infantry_equipment_1
 			creator = "JAP"
 		}
-		requested_factories = 6
+		requested_factories = 8
 		progress = 0.1
 		efficiency = 50
 	}
@@ -440,7 +458,7 @@ instant_effect =
 		}
 		requested_factories = 7
 		progress = 0.4
-		efficiency = 30
+		efficiency = 50
 	}
 
 	add_equipment_production = {
@@ -448,7 +466,7 @@ instant_effect =
 			type = support_equipment_1
 			creator = "JAP" 
 		}
-		requested_factories = 4
+		requested_factories = 3
 		progress = 0.3
 		efficiency = 50
 	}
@@ -470,7 +488,7 @@ instant_effect =
 		}
 		requested_factories = 1
 		progress = 0.2
-		efficiency = 10
+		efficiency = 50
 	}
 	
 	add_equipment_production = {
@@ -478,9 +496,9 @@ instant_effect =
 			type = anti_air_equipment_1
 			creator = "JAP"
 		}
-		requested_factories = 2
+		requested_factories = 1
 		progress = 0.3
-		efficiency = 30
+		efficiency = 50
 	}	
 	
 	add_equipment_production = {
@@ -488,9 +506,9 @@ instant_effect =
 			type = fighter_equipment_1
 			creator = "JAP"
 		}
-		requested_factories = 3
-		progress = 0.1
-		efficiency = 33
+		requested_factories = 2
+		progress = 0.15
+		efficiency = 50
 	}
 
 	add_equipment_production = {
@@ -500,7 +518,7 @@ instant_effect =
 		}
 		requested_factories = 1
 		progress = 0.2
-		efficiency = 100
+		efficiency = 50
 	}
 	
 	add_equipment_production = {
@@ -510,7 +528,7 @@ instant_effect =
 		}
 		requested_factories = 1
 		progress = 0.2
-		efficiency = 100
+		efficiency = 50
 	}
 	
 	add_equipment_production = {
@@ -540,7 +558,9 @@ instant_effect =
 		}
 		requested_factories = 1
 		progress = 0.2
-		efficiency = 80
+		efficiency = 50
 	}
+	
+		
 
 }

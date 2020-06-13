@@ -1,6 +1,6 @@
 on_actions = {
 
- #####REMOVING THIS CANCER ################
+ #####REMOVING THIS CANCER - KOMM################
 
 	# ROOT is capitulated country, FROM is winner
 	on_capitulation = {
