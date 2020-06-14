@@ -2,7 +2,7 @@ version="1.9.*"
 tags={
 	"Balance"
 }
-name="GDU 1.9"
+name="GDU 1.9 dev"
 picture="gas.png"
 replace_path="events"
 replace_path="map/strategicregions"
