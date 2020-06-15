@@ -90,7 +90,8 @@ equipments = {
 	heavy_tank_equipment_3 = {
 		year = 1943
 
-		is_archetype = no
+		archetype = heavy_tank_equipment
+		parent = heavy_tank_equipment_2
 		priority = 90
 		visual_level = 2
 		is_convertable = yes

@@ -16,6 +16,20 @@ NDefines.NCountry.PROVINCE_SCORE_MULTIPLIER = 0				-- Based on number of control
 
 ---------------------------	
 
+NDefines.NCountry.RESISTANCE_STRENGTH_FROM_VP = 0.0
+NDefines.NCountry.RESISTANCE_STRENGTH_FROM_NEIGHBORS = 0.0
+NDefines.NCountry.RESISTANCE_DECAY_WHEN_NO_GROWTH = 100.0
+NDefines.NResistance.INITIAL_STATE_RESISTANCE = 0.0
+NDefines.NResistance.RESISTANCE_TARGET_BASE = 0.0
+NDefines.NResistance.RESISTANCE_DECAY_BASE = 10.0
+NDefines.NResistance.RESISTANCE_DECAY_MIN = 9.0
+NDefines.NResistance.RESISTANCE_DECAY_MAX = 100.0
+NDefines.NResistance.RESISTANCE_GROWTH_BASE = -10.0
+NDefines.NResistance.RESISTANCE_GROWTH_MIN = -10.0
+NDefines.NResistance.RESISTANCE_GROWTH_MAX = -100.0
+NDefines.NResistance.COMPLIANCE_GROWTH_BASE = 20.0
+NDefines.NResistance.COMPLIANCE_GROWTH_MIN = 0.0
+NDefines.NResistance.COMPLIANCE_GROWTH_MAX = 100.0
 
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 240 -- these defines are most likely hourly and not daily , rever to 100 and 130 if desyncs during someone lagging for 10 days
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 240

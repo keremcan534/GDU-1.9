@@ -34,6 +34,7 @@ set_technology = {
 	fuel_silos = 1
 	fuel_refining = 1
 	synth_oil_experiments = 1	
+        ship_hull_submarine_1
 		basic_ship_hull_submarine = 1
 		early_ship_hull_light = 1
 		basic_ship_hull_light = 1
