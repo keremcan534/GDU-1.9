@@ -2759,7 +2759,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = AST_support_the_policy_of_appeasement
 
-		cost = 10
+		cost = 1
 
 		ai_will_do = {
 			factor = 1
@@ -2792,199 +2792,11 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			336 = {
-				add_building_construction = {
-					type = air_base
-					level = 2
-					instant_build = yes
-				}
 
-				#Fortify entire coastline
-				add_building_construction = {
-					type = bunker
-					province = {
-						all_provinces = yes
-						limit_to_coastal = yes
-					}
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = coastal_bunker
-					province = {
-						all_provinces = yes
-						limit_to_coastal = yes
-					}
-					level = 2
-					instant_build = yes
-				}
-
-				#border inland bunker
-				add_building_construction = {
-					type = bunker
-					province = 4310
-					level = 4
-					instant_build = yes
-				}
-
-				add_building_construction = {
-					type = bunker
-					province = 7342
-					level = 2
-					instant_build = yes
-				}
-
-				#Extra fort on naval bases
-				add_building_construction = {
-					type = bunker
-					province = {
-						all_provinces = yes
-						limit_to_naval_base = yes
-					}
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = coastal_bunker
-					province = {
-						all_provinces = yes
-						limit_to_naval_base = yes
-					}
-					level = 2
-					instant_build = yes
-				}
-
-			}
-
-			333 = {
-				#Fortify entire coastline
-				add_building_construction = {
-					type = bunker
-					province = {
-						all_provinces = yes
-						limit_to_coastal = yes
-					}
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = coastal_bunker
-					province = {
-						all_provinces = yes
-						limit_to_coastal = yes
-					}
-					level = 2
-					instant_build = yes
-				}
-
-				#Extra fort on naval bases
-				add_building_construction = {
-					type = bunker
-					province = {
-						all_provinces = yes
-						limit_to_naval_base = yes
-					}
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = coastal_bunker
-					province = {
-						all_provinces = yes
-						limit_to_naval_base = yes
-					}
-					level = 2
-					instant_build = yes
-				}
-			}
-			523 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = anti_air_building
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = bunker
-					level = 4
-					province = 4329
-				}
-				add_building_construction = {
-					type = bunker
-					level = 4
-					province = 4289
-				}
-				add_building_construction = {
-					type = bunker
-					level = 4
-					province = 7349
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					province = 12154
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					province = 1222
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					province = 10260
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					province = 12240
-				}
-				add_building_construction = {
-					type = coastal_bunker
-					level = 4
-					province = 4329
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					province = 4289
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = coastal_bunker
-					level = 2
-					province = 7349
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = coastal_bunker
-					level = 2
-					province = 1222
-					instant_build = yes
-				}
-				add_building_construction = {
-						type = naval_base
-						level = 4
-						province = 4329
-						instant_build = yes
-				}
-				add_building_construction = {
-						type = infrastructure
-						level = 4
-						instant_build = yes
-				}						
-
-				if = {
-					limit = {
-						CONTROLLER = {
-							NOT = { tag = ENG }
-						}
-					}
 		}
 	}
-
-	 #focus = {
+}
+	 focus = {
 		id = AST_empire_air_training_scheme
 		icon = GFX_goal_generic_air_fighter2
 		prerequisite = { focus = AST_CSIR }
@@ -3018,7 +2830,7 @@ focus_tree = {
 			add_ideas = AST_empire_air_training_scheme
 		}
 	}
-	#focus = {
+	focus = {
 		id = AST_commonwealth_aircraft_corporation
 		icon = GFX_goal_generic_air_fighter
 		prerequisite = { focus = AST_CSIR }
@@ -3046,7 +2858,7 @@ focus_tree = {
 		}
 	}
 
-	#focus = {
+	focus = {
 		id = AST_synthetic_rubber
 		icon = GFX_focus_generic_rubber
 		prerequisite = { focus = AST_department_of_supply_and_development }
@@ -3064,8 +2876,8 @@ focus_tree = {
 		}
 		completion_reward = {
 		   
-		   remove_idea = GDU_refinery_prebuild_disincentive
-           add_idea = AST_synthetic_rubber
+		   remove_ideas = GDU_refinery_prebuild_disincentive
+           add_ideas = AST_synthetic_rubber
 
 			
 			add_tech_bonus = {

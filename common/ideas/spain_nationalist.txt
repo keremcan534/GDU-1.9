@@ -138,7 +138,7 @@ ideas = {
 
 	theorist = {
 
-	SPA_jose_enrique_varela = {
+	#SPA_jose_enrique_varela = {
 
 
 		allowed = {
@@ -155,22 +155,6 @@ ideas = {
 		traits = { military_theorist }
 	}
 
-	SPA_emilio_herrera = {
-
-
-		allowed = {
-			original_tag = SPR
-			has_government = fascism
-		}
-
-		picture = generic_air_europe_3
-
-		research_bonus = {
-			air_doctrine = 0.1
-		}
-
-		traits = { air_warfare_theorist }
-	}
 }
 tank_manufacturer = {
 
@@ -369,73 +353,7 @@ tank_manufacturer = {
 
 
 	high_command = {
-		SPA_emilio_esteban_infantes = {
 
-
-			allowed = {
-				original_tag = SPR
-				has_government = fascism
-			}
-
-
-
-			traits = { army_logistics_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		SPA_agustin_munoz_grandes = {
-
-
-			allowed = {
-				original_tag = SPR
-				has_government = fascism
-			}
-
-
-
-			traits = { army_commando_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		SPA_joaquin_garcia_morato = {
-
-
-			allowed = {
-				original_tag = SPR
-				has_government = fascism
-			}
-
-
-
-			traits = { air_air_combat_training_3 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		SPA_angel_salas_larrazabal = {
-
-
-			allowed = {
-				original_tag = SPR
-				has_government = fascism
-			}
-
-
-
-			traits = { air_strategic_bombing_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
 	}
 
 	naval_manufacturer = {
