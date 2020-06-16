@@ -2984,7 +2984,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	 #focus = {
 		id = AST_empire_air_training_scheme
 		icon = GFX_goal_generic_air_fighter2
 		prerequisite = { focus = AST_CSIR }
@@ -3018,7 +3018,7 @@ focus_tree = {
 			add_ideas = AST_empire_air_training_scheme
 		}
 	}
-	focus = {
+	#focus = {
 		id = AST_commonwealth_aircraft_corporation
 		icon = GFX_goal_generic_air_fighter
 		prerequisite = { focus = AST_CSIR }
@@ -3046,7 +3046,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	#focus = {
 		id = AST_synthetic_rubber
 		icon = GFX_focus_generic_rubber
 		prerequisite = { focus = AST_department_of_supply_and_development }

@@ -596,7 +596,7 @@ country_event = {
 }
 
 # Japan Demands Withdrawal of Falkenhausen
-country_event = {
+#country_event = {
 	id = germany.24
 	title = germany.24.t
 	desc = germany.24.d

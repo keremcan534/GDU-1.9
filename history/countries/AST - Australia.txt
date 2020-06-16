@@ -49,6 +49,7 @@ set_technology = {
 		mtg_transport = 1
 		improved_secondary_battery = 1
 		basic_fire_control_system = 1
+		cruiser_submarines = 1
 }
 
 add_opinion_modifier = { target = NZL modifier = huge_increase  }

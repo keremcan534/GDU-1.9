@@ -30,6 +30,9 @@ NDefines.NResistance.RESISTANCE_GROWTH_MAX = -100.0
 NDefines.NResistance.COMPLIANCE_GROWTH_BASE = 20.0
 NDefines.NResistance.COMPLIANCE_GROWTH_MIN = 0.0
 NDefines.NResistance.COMPLIANCE_GROWTH_MAX = 100.0
+NDefines.NOperatives.AGENCY_CREATION_DAYS = 0
+NDefines.NOperatives.AGENCY_CREATION_FACTORIES = 0
+
 
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 240 -- these defines are most likely hourly and not daily , rever to 100 and 130 if desyncs during someone lagging for 10 days
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 240
