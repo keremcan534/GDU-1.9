@@ -25,7 +25,7 @@
 #	alert_text = loc
 #}
 
-sabotage_arms_factory = {
+#sabotage_arms_factory = {
 	available = {
 		non_damaged_building_level = {
 			building = arms_factory
@@ -55,7 +55,7 @@ sabotage_arms_factory = {
 	alert_text = building_is_sabotaged
 }
 
-sabotage_infrastructure = {
+#sabotage_infrastructure = {
 	available = {
 		non_damaged_building_level = {
 			building = infrastructure
@@ -81,7 +81,7 @@ sabotage_infrastructure = {
 	alert_text = building_is_sabotaged
 }
 
-sabotage_industrial_complex = {
+#sabotage_industrial_complex = {
 	available = {
 		non_damaged_building_level = {
 			building = industrial_complex
@@ -111,7 +111,7 @@ sabotage_industrial_complex = {
 	alert_text = building_is_sabotaged
 }
 
-sabotage_air_base = {
+#sabotage_air_base = {
 	available = {
 		non_damaged_building_level = {
 			building = air_base
@@ -137,7 +137,7 @@ sabotage_air_base = {
 	alert_text = building_is_sabotaged
 }
 
-sabotage_dockyard = {
+#sabotage_dockyard = {
 	available = {
 		non_damaged_building_level = {
 			building = dockyard
@@ -163,7 +163,7 @@ sabotage_dockyard = {
 	alert_text = building_is_sabotaged
 }
 
-sabotage_anti_air_building = {
+#sabotage_anti_air_building = {
 	available = {
 		non_damaged_building_level = {
 			building = anti_air_building
@@ -190,7 +190,7 @@ sabotage_anti_air_building = {
 }
 
 
-sabotage_synthetic_refinery = {
+#sabotage_synthetic_refinery = {
 	available = {
 		non_damaged_building_level = {
 			building = synthetic_refinery
@@ -217,7 +217,7 @@ sabotage_synthetic_refinery = {
 }
 
 
-sabotage_fuel_silo = {
+#sabotage_fuel_silo = {
 	available = {
 		non_damaged_building_level = {
 			building = fuel_silo
@@ -244,7 +244,7 @@ sabotage_fuel_silo = {
 }
 
 
-sabotage_radar_station = {
+#sabotage_radar_station = {
 	available = {
 		non_damaged_building_level = {
 			building = radar_station
@@ -270,7 +270,7 @@ sabotage_radar_station = {
 	alert_text = building_is_sabotaged
 }
 
-sabotage_rocket_site = {
+#sabotage_rocket_site = {
 	available = {
 		non_damaged_building_level = {
 			building = rocket_site
@@ -296,7 +296,7 @@ sabotage_rocket_site = {
 	alert_text = building_is_sabotaged
 }
 
-sabotage_nuclear_reactor = {
+#sabotage_nuclear_reactor = {
 	available = {
 		non_damaged_building_level = {
 			building = nuclear_reactor
@@ -322,7 +322,7 @@ sabotage_nuclear_reactor = {
 	alert_text = building_is_sabotaged
 }
 
-sabotage_oil = {
+#sabotage_oil = {
 	available = {
 		has_resources_amount = {
 			resource = oil
@@ -360,7 +360,7 @@ sabotage_oil = {
 	alert_text = resource_is_sabotaged
 }
 
-sabotage_aluminium = {
+#sabotage_aluminium = {
 	available = {
 		has_resources_amount = {
 			resource = aluminium
@@ -398,7 +398,7 @@ sabotage_aluminium = {
 	alert_text = resource_is_sabotaged
 }
 
-sabotage_rubber = {
+#sabotage_rubber = {
 	available = {
 		has_resources_amount = {
 			resource = rubber
@@ -436,7 +436,7 @@ sabotage_rubber = {
 	alert_text = resource_is_sabotaged
 }
 
-sabotage_tungsten = {
+#sabotage_tungsten = {
 	available = {
 		has_resources_amount = {
 			resource = tungsten
@@ -475,7 +475,7 @@ sabotage_tungsten = {
 }
 
 
-sabotage_steel = {
+#sabotage_steel = {
 	available = {
 		has_resources_amount = {
 			resource = steel
@@ -513,7 +513,7 @@ sabotage_steel = {
 	alert_text = resource_is_sabotaged
 }
 
-sabotage_chromium = {
+#sabotage_chromium = {
 	available = {
 		has_resources_amount = {
 			resource = chromium

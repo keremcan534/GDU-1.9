@@ -5,7 +5,7 @@
   # §B  #blue#
   # §Y  #yellow#
   # §b  #black#
-  # §M  #light blue#
+  # §T  #light blue#
   #  §g  #gray#
   # §T  #turq#
   # §l #lime green#
@@ -48,10 +48,10 @@
  rocket_effort_desc:0 "Rocket and jet engines allow for unprecedented speeds for unmanned and manned vessels alike. Pioneering these technologies will allow us to take the enemy by surprise."
  NAV_effort:0 "NAV Effort"
  NAV_effort_desc:0 "Just as the new naval warfare takes place in part beneath the water's surface, part of it takes place in the air above the waters."
- naval_effort:0 "§MNaval Effort§!"
+ naval_effort:0 "§TNaval Effort§!"
  naval_effort_tt:0 "Not enough building slots for §YNaval Dockyards§!"
  naval_effort_desc:0 "The expansion of our navy should be our first priority. Assign all available resources to new Dockyards and research into light surface ships."
- GER_naval_effort2:0 "§MExpand Dockyard Facilities§!"
+ GER_naval_effort2:0 "§TExpand Dockyard Facilities§!"
  GER_naval_effort2_desc:0 "To truly rebuild a navy worthy of note, we must greatly expand our shipbuilding capacity."
  flexible_navy:0 "Flexible Navy"
  flexible_navy_desc:0 "Reinventing naval warfare to account for the advances in submarine technology will allow us to strike efficiently against enemy convoys."
@@ -235,13 +235,13 @@
  GER_reintegrate_luxemburg_and_alsace_lorraine_desc:0 "With our successful reconquest of historically German areas, we can now begin the process of their reintegration into the [Root.GetName]. Their populations must be allowed to do their patriotic duty for the fatherland."
  GER_naval_rearmament:0 "Naval Rearmament"
  GER_naval_rearmament_desc:0 "The Anglo-German Naval Agreement we secured in 1935 allows us to expand our navy greatly. We should spare no effort in doing so."
- GER_plan_z:0 "§MPlan Z§!"
+ GER_plan_z:0 "§TPlan Z§!"
  GER_plan_z_desc:0 "Admiral Raeder believes that the British can best be defeated through a policy of surface raiding. Constructing enough battleships and carriers to accomplish this will be a massive task, and will take time; perhaps too much time... On the other hand, our current surface navy is pathetically inadequate."
- GER_u_boat_effort:0 "§MU-Boat Effort§!"
+ GER_u_boat_effort:0 "§TU-Boat Effort§!"
  GER_u_boat_effort_desc:0 "Commodore Dönitz advocates a strategy of unrestricted submarine warfare as the best way of bringing Britain to its knees. With enough U-boats, we might be able to starve the British home industries of all the required resources from its far-flung empire."
- GER_trade_interdiction:0 "§MTrade Interdiction§!"
+ GER_trade_interdiction:0 "§TTrade Interdiction§!"
  GER_trade_interdiction_desc:0 "Our dockyards are committed to churning out U-boats, but we need to develop better ways of utilizing these 'wolf packs'. Give the admirals everything they need to conduct their simulations and war games..."
- GER_modular_construction:0 "§MModular Construction§!"
+ GER_modular_construction:0 "§TModular Construction§!"
  GER_modular_construction_desc:0 "By having parts of our submarines built at various construction facilities, assembly and construction speed are greatly improved."
  GER_denmark_friend:0 "Befriend Denmark"
  GER_denmark_friend_desc:0 "Gunboat diplomacy is not dead yet. Our naval expansion plans are well known to our little northern neighbor. In combination with their fear of our vastly superior armies, it should be easy enough to intimidate them into our sphere of influence."
@@ -270,7 +270,7 @@
  GER_war_with_greece_desc:0 "With Greece already at war, it would be a shame for Germany to miss out on a base in the Eastern Mediterranean."
  GER_fate_of_greece:0 "Fate Of Greece"
  GER_fate_of_greece_desc:0 "Greece has proven that it cannot cope with the new forces unleashed upon Europe. It is time to offer them the protection that only Germany can provide."
- GER_weserubung:0 "Operation §MWeserübung"
+ GER_weserubung:0 "Operation §TWeserübung"
  GER_weserubung_desc:0 "Norway is a critical strategic point and would be an obvious point of attack for any enemy wanting to disrupt our steel trade with Sweden. We cannot risk our enemies setting up bases in this region. To obtain a good staging area for the invasion of Norway we need to move on Denmark first."
  GER_around_maginot:0 "Around Maginot"
  GER_around_maginot_desc:0 "If we want to ensure a tactical advantage against France we need to be able to hit them from all sides. They will not expect an attack from the North, which is exactly where we will hit them from, once we've disposed of a few obstacles."
