@@ -1,9 +1,9 @@
-version="1.9.*"
+version="1.9.3"
+picture="warman.png dev"
 tags={
 	"Balance"
 }
-name="GDU 1.9 dev"
-picture="gas.png"
+name="GDU 1.9"
 replace_path="events"
 replace_path="map/strategicregions"
 replace_path="history/states"

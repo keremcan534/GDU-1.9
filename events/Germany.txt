@@ -42,10 +42,10 @@ country_event = {
 		annex_country = { target = AUS transfer_troops = yes }
 		add_political_power = 75
 		custom_effect_tooltip = anschluss_mefo_bills_tt
-		#hidden_effect = { # Having it appear twice might be confusing
+		hidden_effect = { # Having it appear twice might be confusing
 			GER_mefo_bills_level_down = yes
 			GER_mefo_bills_level_down = yes
-	}
+		}
 		custom_effect_tooltip = anschluss_mefo_bills_double_reduction
 		add_to_variable = { var = GER_mefo_bill_counter value = -10 }
 		hidden_effect = {
@@ -54,6 +54,7 @@ country_event = {
 			set_country_flag = AUS_annexed
 			news_event = { hours = 6 id = news.36 }
 		}
+	}
 }
 
 #anti_comintern_pact
@@ -429,7 +430,7 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 91 }
-			SOV = { add_state_core = 91 }
+			SOV = { add_state_core = 91 }			
 		}
 		if = {
 			limit = {
@@ -445,7 +446,7 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 97 }
-			SOV = { add_state_core = 97 }
+			SOV = { add_state_core = 97 }			
 		}
 		if = {
 			limit = {
@@ -461,7 +462,7 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 89 }
-			SOV = { add_state_core = 89 }
+			SOV = { add_state_core = 89 }			
 		}
 		if = {
 			limit = {
@@ -477,7 +478,7 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 751 }
-			SOV = { add_state_core = 751 }
+			SOV = { add_state_core = 751 }			
 		}
 		SOV = { country_event = germany.15 }
 	}
@@ -596,7 +597,7 @@ country_event = {
 }
 
 # Japan Demands Withdrawal of Falkenhausen
-#country_event = {
+country_event = {
 	id = germany.24
 	title = germany.24.t
 	desc = germany.24.d
@@ -790,6 +791,7 @@ country_event = {
 				is_in_faction_with = CZE
 				is_faction_leader = yes
 			}
+			dismantle_faction = yes
 		}
 		if = {
 			limit = {
@@ -1266,12 +1268,12 @@ country_event = {
 		add_to_faction = HUN
 		add_equipment_to_stockpile = {
 			type = light_tank_equipment_2
-			amount = 500
+			amount = 1000
 			producer = CZE
 		}
 		add_equipment_to_stockpile = {
 			type = medium_tank_equipment_1
-			amount = 200
+			amount = 500
 			producer = CZE
 		}
 		ai_chance = { 
@@ -1661,6 +1663,7 @@ country_event = {
 			factor = 10
 		}
 		name = germany.83.a		#join
+		add_ideas = anti_soviet_pact
 		SOV = {
 			remove_opinion_modifier = { target = ROOT modifier = pact_against_us }
 			add_opinion_modifier = { target = ROOT modifier = worse_pact_against_us }
@@ -1693,10 +1696,10 @@ country_event = {
 		name = germany.84.a
 		every_other_country = {
 			limit = {
-				#has_idea = anti_soviet_pact
+				has_idea = anti_soviet_pact
 				NOT = { has_war_with = SOV }
 				any_other_country = {
-					#has_idea = anti_soviet_pact
+					has_idea = anti_soviet_pact
 					has_war_with = SOV
 				}
 			}
@@ -1706,47 +1709,47 @@ country_event = {
 }
 
 # [From.GetName] Calls Pact Members to War
-#country_event = {
-#	id = germany.85
-#	title = germany.85.t
-#	desc = germany.85.d
-#	picture = GFX_report_event_soviet_tanks
-#
-#	is_triggered_only = yes
-#
-#	#immediate = {
-#	#	remove_ideas = anti_soviet_pact
-#	#}
-#
-#	option = {
-#		name = germany.85.a
-#		ai_chance = {
-#			factor = 10
-#		}
-#		add_to_war = {
-#			targeted_alliance = FROM
-#			enemy = SOV
-#		}
-#	}
-#
-#	option = {
-#		name = germany.85.b
-#		ai_chance = {
-#			factor = 0
-#		}
-#		#remove_ideas = anti_soviet_pact
-#		FROM = { add_opinion_modifier = { target = ROOT modifier = anti_soviet_pact_call_refused } }
-#		SOV = { remove_opinion_modifier = { target = SOV modifier = worse_pact_against_us } }
-#		add_timed_idea = {
-#			idea = anti_soviet_pact_refused_call
-#			days = 365
-#		}
-#		custom_effect_tooltip = germany.85.b_tt
-#		hidden_effect = {
-#			country_event = { id = germany.112 days = 3 }
-#		}
-#	}
-#}
+country_event = {
+	id = germany.85
+	title = germany.85.t
+	desc = germany.85.d
+	picture = GFX_report_event_soviet_tanks
+
+	is_triggered_only = yes
+
+	#immediate = {
+	#	remove_ideas = anti_soviet_pact
+	#}
+
+	option = {
+		name = germany.85.a
+		ai_chance = {
+			factor = 10
+		}
+		add_to_war = {
+			targeted_alliance = FROM
+			enemy = SOV
+		}
+	}
+
+	option = {
+		name = germany.85.b
+		ai_chance = {
+			factor = 0
+		}
+		remove_ideas = anti_soviet_pact
+		FROM = { add_opinion_modifier = { target = ROOT modifier = anti_soviet_pact_call_refused } }
+		SOV = { remove_opinion_modifier = { target = SOV modifier = worse_pact_against_us } }
+		add_timed_idea = {
+			idea = anti_soviet_pact_refused_call
+			days = 365
+		}
+		custom_effect_tooltip = germany.85.b_tt
+		hidden_effect = {
+			country_event = { id = germany.112 days = 3 }
+		}
+	}
+}
 
 # Danzig or War (Poland)
 country_event = {
@@ -1863,6 +1866,7 @@ country_event = {
 
 	option = {
 		name = germany.89.a
+		dismantle_faction = yes
 		add_stability = -0.1
 		every_other_country = {
 			limit = {
@@ -1881,6 +1885,7 @@ country_event = {
 					limit = {
 						is_faction_leader = yes
 					}
+					dismantle_faction = yes
 			}
 			if = {
 					limit = {
@@ -2373,20 +2378,20 @@ country_event = {
 }
 
 # (Hidden)
-#country_event = {
-#	id = germany.112
-#
-#	is_triggered_only = yes
-#
-#	hidden = yes
-#
-#	immediate = {
-#		every_other_country = {
-#			limit = { has_idea = anti_soviet_pact }
-#			add_opinion_modifier = { target = FROM modifier = anti_soviet_pact_call_refused }
-#		}
-#	}
-#}
+country_event = {
+	id = germany.112
+
+	is_triggered_only = yes
+
+	hidden = yes
+
+	immediate = {
+		every_other_country = {
+			limit = { has_idea = anti_soviet_pact }
+			add_opinion_modifier = { target = FROM modifier = anti_soviet_pact_call_refused }
+		}
+	}
+}
 
 
 # Danzig or War (Polish Civil War)

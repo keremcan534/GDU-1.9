@@ -303,34 +303,21 @@ units = {
 
 ### Air Wings ###
 
-air_wings = {
+	air_wings = {
 	 
 	 	2 = { 
-
-	 	transport_plane_equipment_1 = {
-			owner = "ITA"
-		
-			amount = 25
-		}
-
-		nav_bomber_equipment_1 = {
-			owner = "ITA"
-		
-			amount = 100
-		}
-       
-
+			transport_plane_equipment_1 = {
+				owner = "ITA"
+			
+				amount = 25
+			}
         }
-
-
-
-
-
-}
+	}
 
 	#########################
 	## STARTING PRODUCTION ##
 	#########################
+	
 instant_effect = {
 
 	if = {

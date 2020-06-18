@@ -503,34 +503,32 @@ USA_aid_britain = {
 }
 
 foreign_support = {
-	USA_support_the_anti_fascist_war = {
-
-		icon = generic_industry
-
-		allowed = {
-			original_tag = USA
-		}
-
-		available = {
-			NOT = {
+	#USA_support_the_anti_fascist_war = {
+##
+#
+#		icon = generic_industry
+#
+#		allowed = {
+#			original_tag = USA
+#		}
+#
+#		available = {
+#			NOT = {
 				has_global_flag = USA_support_the_anti_fascist_war_flag
 			}
 			FROM = {
-				has_completed_focus = CHI_mission_to_the_us
 				has_war_with = JAP
 			}
 		}
 
 		target_trigger = {
 			FROM = {
-				has_completed_focus = CHI_mission_to_the_us
 				has_war_with = JAP
 			}
 		}
 
 		visible = {
 			FROM = {
-				has_completed_focus = CHI_mission_to_the_us
 				has_war_with = JAP
 			}
 		}
@@ -541,7 +539,7 @@ foreign_support = {
 			modifier = {
 				factor = 3
 				any_other_country = {
-					has_completed_focus = CHI_mission_to_the_us
+					#has_completed_focus = CHI_mission_to_the_us
 					has_defensive_war = yes
 				}
 			}
@@ -577,7 +575,7 @@ foreign_support = {
 		}
 	}
 
-	USA_guns_for_the_anti_fascist_war = {
+	#USA_guns_for_the_anti_fascist_war = {
 
 		icon = generic_prepare_civil_war
 
@@ -588,21 +586,21 @@ foreign_support = {
 		available = {
 			has_equipment = { infantry_equipment > 999 }
 			FROM = {
-				has_completed_focus = CHI_mission_to_the_us
+				#has_completed_focus = CHI_mission_to_the_us
 				has_war_with = JAP
 			}
 		}
 
 		target_trigger = {
 			FROM = {
-				has_completed_focus = CHI_mission_to_the_us
+				#has_completed_focus = CHI_mission_to_the_us
 				has_war_with = JAP
 			}
 		}
 
 		visible = {
 			FROM = {
-				has_completed_focus = CHI_mission_to_the_us
+				#has_completed_focus = CHI_mission_to_the_us
 				has_war_with = JAP
 			}
 		}
@@ -613,7 +611,7 @@ foreign_support = {
 			modifier = {
 				factor = 3
 				FROM = {
-					has_completed_focus = CHI_mission_to_the_us
+					#has_completed_focus = CHI_mission_to_the_us
 					surrender_progress > 0.2
 					has_defensive_war = yes
 				}

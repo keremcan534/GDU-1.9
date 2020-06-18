@@ -103,7 +103,7 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "SPR"
 		}
-		requested_factories = 2
+		requested_factories = 1
 		progress = 0.42
 		efficiency = 100
 	}

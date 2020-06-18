@@ -76,56 +76,6 @@ units = {
 	######## Sztab Generalny Wojska Polskiego ########
 	### Armia Pomorze ###	
 	division= {	
-		name = "4 Dywizja Piechoty"
-		location = 362
-		division_template = "Dywizja Piechoty"
-		start_experience_factor = 0.3
-
-
-	}
-	division= {	
-		name = "15 Dywizja Piechoty"
-		location = 389
-		division_template = "Dywizja Piechoty"
-		start_experience_factor = 0.3
-
-
-	}
-	division= {	
-		name = "16 Dywizja Piechoty"
-		location = 9263
-		division_template = "Dywizja Piechoty"
-		start_experience_factor = 0.3
-
-
-	}
-
-	### Armia Poznan ###	
-	division= {	
-		name = "14 Dywizja Piechoty"
-		location = 6558
-		division_template = "Dywizja Piechoty"
-		start_experience_factor = 0.3
-
-
-	}
-	division= {	
-		name = "17 Dywizja Piechoty"
-		location = 11232
-		division_template = "Dywizja Piechoty"
-		start_experience_factor = 0.3
-
-
-	}
-	division= {	
-		name = "25 Dywizja Piechoty"
-		location = 3381
-		division_template = "Dywizja Piechoty"
-		start_experience_factor = 0.2
-
-
-	}
-	division= {	
 		name = "Podolska B.K."
 		location = 9532
 		division_template = "Brygada Kawalerii" 
@@ -147,22 +97,6 @@ units = {
 	### Armia Lódz ###	
 	division= {	
 		name = "2 Dywizja Piechoty"
-		location = 9508
-		division_template = "Dywizja Piechoty"
-		start_experience_factor = 0.3
-
-
-	}
-	division= {	
-		name = "7 Dywizja Piechoty"
-		location = 9508
-		division_template = "Dywizja Piechoty"
-		start_experience_factor = 0.3
-
-
-	}
-	division= {	
-		name = "10 Dywizja Piechoty"
 		location = 9508
 		division_template = "Dywizja Piechoty"
 		start_experience_factor = 0.3
@@ -229,22 +163,6 @@ units = {
 		location = 3544
 		division_template = "Dywizja Piechoty"
 		start_experience_factor = 0.3
-
-
-	}
-	division= {	
-		name = "26 Dywizja Piechoty"
-		location = 3544
-		division_template = "Dywizja Piechoty"
-		start_experience_factor = 0.2
-
-
-	}
-	division= {	
-		name = "28 Dywizja Piechoty"
-		location = 3544
-		division_template = "Dywizja Piechoty"
-		start_experience_factor = 0.2
 
 
 	}

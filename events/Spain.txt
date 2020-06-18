@@ -77,10 +77,6 @@ country_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		SPR = { has_civil_war = yes }
-	}
-
 	option = {
 		name = spain.4.a
 		set_country_flag = promised_help_nationalist_spain
@@ -89,7 +85,6 @@ country_event = {
 
 	option = {
 		name = spain.4.b
-
 	}
 }
 
@@ -120,38 +115,6 @@ country_event = {
 
 # Nationalist Spain Appreciates our Help
 
-
-# Civil war over. Move Capital
-country_event = {
-	id = spain.8
-	title = spain.8.t
-	desc = spain.8.d
-	picture = GFX_report_event_spain_civil_war_volunteers_01
-
-	trigger = {
-		original_tag = SPR
-		has_government = fascism
-		has_global_flag = nationalist_victory
-		owns_state = 41
-	}
-
-	fire_only_once = yes
-
-	mean_time_to_happen = {
-		days = 2
-	}
-
-	option = {
-		ai_chance = { factor = 1 }
-		name = spain.8.a
-		set_capital = 41
-	}
-	option = {
-		ai_chance = { factor = 0 }
-		name = spain.8.b
-	}
-}
-
 # Election of 1936
 country_event = {
 	id = spain.9
@@ -162,11 +125,6 @@ country_event = {
 	is_triggered_only = yes
 
 	fire_only_once = yes
-
-	trigger = {
-		tag = SPR
-		date < 1937.1.1
-	}
 
 	# Falange
 	option = {
@@ -195,23 +153,16 @@ country_event = {
 	trigger = { tag = SPR }
 
 	option = {
-
-
-	# Support Nationalists
 		name = spain.1.a
-
-        if = {
+		if = {
 
 			limit = { has_global_flag = scw_over }
-
-
-				    SPR = { country_event = { id = veren.2 days = 1 } }
+				SPR = { country_event = { id = veren.2 days = 1 } }
 
 			news_event = { hours = 24 id = news.63 }
-			news_event = { hours = 48 id = news.64 }
 			set_global_flag = spanish_civil_war
-            
-			set_stability = 0.9
+			
+			set_stability = 0.75
 			add_popularity = {
 				ideology = fascism
 				popularity = 1
@@ -225,27 +176,97 @@ country_event = {
 			ITA = { army_experience = 300 }
 			SPR = { army_experience = 500 }
 			SPR = { air_experience = 300 }
+			
+		create_field_marshal = {
+                name = "Francisco Franco"
+                desc = "POLITICS_FRANCOGEN_DESC"
+                portrait_path = "gfx/leaders/SPA/Portrait_Spain_Francisco_Franco.dds"
+                traits = { offensive_doctrine brilliant_strategist politically_connected war_hero media_personality desert_fox }
+                skill = 6
+				attack_skill = 5
+				defense_skill = 5
+				planning_skill = 5
+				logistics_skill = 4
+        }
+		create_corps_commander = {
+                name = "Alonso Vega"
+                desc = "POLITICS_FRANCOGEN_DESC"
+                picture = "Portrait_SPR_Alonso_Vega.dds"
+                traits = { infantry_officer infantry_leader hill_fighter organizer trait_engineer harsh_leader  }
+                skill = 4
+				attack_skill = 4
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 3
+        }
+			create_corps_commander = {
+                name = "Davila Arrondo"
+                desc = "POLITICS_FRANCOGEN_DESC"
+                picture = "Portrait_SPR_Davila_Arrondo.dds"
+                traits = { panzer_leader armor_officer trait_reckless harsh_leader trickster media_personality trait_engineer desert_fox }
+                skill = 5
+				attack_skill = 5
+				defense_skill = 4
+				planning_skill = 3
+				logistics_skill = 4
+        }
+			create_corps_commander = {
+                name = "Goded Llopis"
+                desc = "POLITICS_FRANCOGEN_DESC"
+                picture = "Portrait_SPR_Goded_Llopis.dds"
+                traits = { skilled_staffer infantry_leader commando old_guard trait_cautious infantry_officer  ranger politically_connected}
+                skill = 4
+				attack_skill = 3
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 6
+        }
+			create_corps_commander = {
+                name = "Jose Sanjurjo Sacanell"
+                desc = "POLITICS_FRANCOGEN_DESC"
+                picture = "Portrait_SPR_Jose_Sanjurjo_Sacanell.dds"
+                traits = { skilled_staffer swamp_fox cavalry_leader cavalry_officer trickster career_officer harsh_leader }
+                skill = 4
+				attack_skill = 5
+				defense_skill = 2
+				planning_skill = 5
+				logistics_skill = 1
+        }
+			create_corps_commander = {
+                name = "Miguel Cabanellas Ferrer"
+                desc = "POLITICS_FRANCOGEN_DESC"
+                picture = "Portrait_SPR_Miguel_Cabanellas_Ferrer.dds"
+                traits = { desert_fox panzer_leader career_officer cavalry_officer trickster harsh_leader trait_reckless  }
+                skill = 4
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 5
+        }
+			create_corps_commander = {
+                name = "Vicente Lluch"
+                desc = "POLITICS_FRANCOGEN_DESC"
+                picture = "SPR_Portrait_Vicente_Lluch.dds"
+                traits = { infantry_leader skilled_staffer urban_assault_specialist trait_engineer old_guard trait_cautious harsh_leader infantry_officer  }
+                skill = 4
+				attack_skill = 4
+				defense_skill = 4
+				planning_skill = 3
+				logistics_skill = 2
+        }
 
-					add_timed_idea = { idea = SPA_recovering_from_civil_war days = 800 }
+			add_timed_idea = { idea = SPA_recovering_from_civil_war days = 800 }
 
-						add_equipment_to_stockpile = {
-            type = infantry_equipment_1
-            amount = 50000
-            producer = SPR
-	}
-
-							custom_effect_tooltip = nationalists_chosen
-
-
-
-
-}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 5000
+				producer = SPR
+			}
+			custom_effect_tooltip = nationalists_chosen
+		}
 
 		else = {
-			limit = { NOT = { has_global_flag = scw_over } }
-
-
-		    SPR = { country_event = { id = veren.2 days = 1 } }
+			SPR = { country_event = { id = veren.2 days = 1 } }
 			set_capital = 176
 			start_civil_war = {
 				ruling_party = fascism
@@ -284,11 +305,5 @@ country_event = {
 			ITA = { air_experience = 300 }
 					custom_effect_tooltip = nationalists_chosen
 		}
-
-
-
-
-		
-}
-
+	}
 }

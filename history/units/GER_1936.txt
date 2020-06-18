@@ -36,8 +36,49 @@
 		signal_company { x = 0 y = 2 }
 		artillery = { x = 0 y = 3 }
 		anti_tank = { x = 0 y = 4 }
-		anti_air = { x = 0 y = 5 }
+		anti_air = { x = 1 y = 0 }
 	}
+}
+division_template = {
+	name = "Panzer-Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		mot_anti_air_brigade = { x = 1 y = 3 }		
+	    
+		medium_armor = { x = 2 y = 0 }
+		medium_armor = { x = 2 y = 1 }
+		medium_armor = { x = 2 y = 2 }
+		medium_armor = { x = 2 y = 3 }
+		medium_armor = { x = 2 y = 4 }		
+		
+		medium_armor = { x = 3 y = 0 }
+		medium_armor = { x = 3 y = 1 }
+		medium_armor = { x = 3 y = 2 }
+		medium_armor = { x = 3 y = 3 }
+		medium_armor = { x = 3 y = 4 }
+		
+		medium_armor = { x = 4 y = 0 }
+		medium_armor = { x = 4 y = 1 }
+
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+        recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+		anti_tank = { x = 0 y = 4 }
+		anti_air = { x = 1 y = 0 }
+	}
+priority = 2
+	
 }
 
 division_template = {
@@ -75,7 +116,7 @@ division_template = {
 		signal_company = { x = 0 y = 2 }
 		logistics_company = { x = 0 y = 3 }
 		anti_tank = { x = 0 y = 4 }
-		anti_air = { x = 0 y = 5 }
+		anti_air = { x = 1 y = 0 }
 	}
 }
 division_template = {
@@ -115,7 +156,7 @@ division_template = {
         signal_company = { x = 0 y = 2 }
 		logistics_company = { x = 0 y = 3 }
 		anti_air = { x = 0 y = 4 }
-		anti_tank = { x = 0 y = 5 }
+		anti_tank = { x = 1 y = 0 }
 	}
 
 }
@@ -150,7 +191,7 @@ division_template = {
 	    recon = { x = 0 y = 1 }
 		signal_company { x = 0 y = 2 }
 		artillery = { x = 0 y = 3 }
-		logistics_company = { x = 0 y = 4 }
+		logistics_company = { x = 1 y = 0 }
 	}
 	priority = 2
 }
@@ -189,7 +230,7 @@ division_template = {
 		logistics_company { x = 0 y = 2 }
 		signal_company = { x = 0 y = 3 }
 		anti_tank = { x = 0 y = 4 }
-		artillery = { x = 0 y = 5 }
+		artillery = { x = 1 y = 0 }
 		
 	}
 }
@@ -226,7 +267,7 @@ division_template = {
 		logistics_company { x = 0 y = 2 }
 		signal_company = { x = 0 y = 3 }
 		anti_tank = { x = 0 y = 4 }
-		artillery = { x = 0 y = 5 }
+		artillery = { x = 1 y = 0 }
 		
 	}
 }
@@ -379,133 +420,6 @@ units = {
 
 ### Air oob
 air_wings = {
-			
-	### I. Luftkreiskommando -- Berlin ###
-	56 = { 
-		# Jagdgeschwader 132 'Richtofen'		
-		fighter_equipment_1 =  {		# Ar 68
-			owner = "GER" 
-			amount = 100
-			version_name = "Bf 109 E"
-		}
-		fighter_equipment_1 =  {		# Ar 68
-			owner = "GER" 
-			amount = 100
-			version_name = "Bf 109 E"
-		}		
-		ace={ # Order is important. Ace will be assigned to the wing above (fighter_equipment_0).
-			modifier="fighter_genius"
-			name="Erich"
-			surname="Hartmann"
-			callsign="Bubi"
-			portrait=1 # Pick random index here, or make special GFX_GER_ace_Erich_Hartmann to override.
-		}
-		fighter_equipment_1 =  {		# Ar 68
-			owner = "GER" 
-			amount = 100
-			version_name = "Bf 109 E"
-		}
-		fighter_equipment_1 =  {		# Ar 68
-			owner = "GER" 
-			amount = 100
-			version_name = "Bf 109 E"
-		}
-		fighter_equipment_1 =  {		# Ar 68
-			owner = "GER" 
-			amount = 100
-			version_name = "Bf 109 E"
-		}
-		fighter_equipment_1 =  {			# Hs 123
-			owner = "GER" 
-			amount = 100
-			version_name = "Bf 109 E"
-		}
-		fighter_equipment_1 =  {			# Hs 123
-			owner = "GER" 
-			amount = 100
-			version_name = "Bf 109 E"
-		}
-		# Kampfgeschwader 153		
-	}
-     ### italy
-     56 = {
-		# 5a Divisione Aerea 'Eolo'
-		# 8a Divisione Aerea 'Ibis'
-		fighter_equipment_1 = {
-			owner = "GER"
-			creator = "ITA"
-			amount = 100
-		}
-		tac_bomber_equipment_0 =  {
-			owner = "GER"
-			creator = "ITA"
-			amount = 100
-		}
-		tac_bomber_equipment_0 =  {
-			owner = "GER"
-			creator = "ITA"
-			amount = 100
-		}
-		tac_bomber_equipment_0 =  {
-			owner = "GER"
-			creator = "ITA"
-			amount = 100
-		}
-		
-		CAS_equipment_1 =  {
-			owner = "GER"
-			creator = "ITA"
-			amount = 100
-		}
-	
-
-	}
-
-
-     ### bulgaria
-     56 = {
-		# Vuzdushnite voiski na Negovo Velichestvo
-		fighter_equipment_0 =  {
-			
-			owner = "GER" 
-			amount = 100
-		}
-	} 
-
-     ### romania
-
-     56 = {
-		# Grup 1 Avion de Vanatoare -- PZL P.11 fighters
-		fighter_equipment_0 = {
-			creator = "ROM"
-			owner = "GER" 
-			amount = 100
-		}
-	}
-
-     ### hungary
-
-	 56 = {
-		# 1. Légi Ezred -- Fiat CR.32 fighters
-		# 2. Légi Ezred -- Fiat CR.32 fighters
-		fighter_equipment_0 = {
-			creator = "HUN" 
-			owner = "GER"
-			amount = 100
-		}
-
-	}
-	 56 = {
-		# 3. Légi Ezred -- Caproni Ca.101, WM-16 Budapest light bombers
-		CAS_equipment_1 = {
-			creator = "HUN"
-			owner = "GER" 
-			amount = 100
-		}
-	}
-
-
-
 
 	### II. Luftkreiskommando -- Munich ###
 	57 = { 
@@ -646,7 +560,7 @@ air_wings = {
 	61 = {
 			transport_plane_equipment_1 = {
 			owner = "GER" 
-			amount = 5
+			amount = 25
 		}
 	}
 
@@ -655,7 +569,7 @@ air_wings = {
 		# Küstenfliegergruppe 106		
 		nav_bomber_equipment_1 =  {		# He 59, Do 18
 			owner = "GER" 
-			amount = 100
+			amount = 200
 		}
 		# Küstenfliegergruppe 206
 	}

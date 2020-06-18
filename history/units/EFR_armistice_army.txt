@@ -37,7 +37,7 @@ units = {
 	# 1er groupe de divisions militaires (Avignon)
 	division = {
 		name = "7. Division Militaire"
-		location = 641  # Bourg En Bresse
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -53,7 +53,7 @@ units = {
 
 	division = {
 		name = "15. Division Militaire"
-		location = 11834  # Marseille
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -61,7 +61,7 @@ units = {
 
 	division = {
 		name = "16. Division Militaire"
-		location = 9898  # Montpellier
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -70,7 +70,7 @@ units = {
 	# 2e groupe de divisions militaires (Clermont-Ferrand) :
 	division = {
 		name = "9. Division Militaire"
-		location = 651  # Chateauroux
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -78,7 +78,7 @@ units = {
 
 	division = {
 		name = "12. Division Militaire"
-		location = 620  # Limoges
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -86,7 +86,7 @@ units = {
 
 	division = {
 		name = "13. Division Militaire"
-		location = 769  # Clermont-Ferrand
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -94,7 +94,7 @@ units = {
 
 	division = {
 		name = "17. Division Militaire"
-		location = 6766  # Toulouse
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -106,7 +106,7 @@ units = {
 	# MAROC
 	division = {
 		name = "Division de Fez"
-		location = 7100  # Fez
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -114,7 +114,7 @@ units = {
 
 	division = {
 		name = "Division de Meknès"
-		location = 4084  # Mèknes
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -122,7 +122,7 @@ units = {
 
 	division = {
 		name = "Division de Casablanca"
-		location = 7069  # Casablanca
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -130,7 +130,7 @@ units = {
 
 	division = {
 		name = "Division de Marrakech"
-		location = 4139  # Marrakech
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -138,7 +138,7 @@ units = {
 
 	division = {
 		name = "Division de Marrakech 2"
-		location = 4139  # Marrakech
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -149,7 +149,7 @@ units = {
 	#XIX Corps D'Armée Algérie et Tunis
 	division = {
 		name = "Division de Marche d'Algers"
-		location = 1145  # Algers
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -157,7 +157,7 @@ units = {
 
 	division = {
 		name = "Division de Marche d'Algers 2"
-		location = 1145  # Algers
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -165,7 +165,7 @@ units = {
 
 	division = {
 		name = "Division de Marche d'Algers 3"
-		location = 1145  # Algers
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -173,7 +173,7 @@ units = {
 
 	division = {
 		name = "Division de Marche de Constantine"
-		location = 12051  # Constantine
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -181,7 +181,7 @@ units = {
 
 	division = {
 		name = "Division de Marche d'Oran"
-		location = 7132  # Oran
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -189,7 +189,7 @@ units = {
 
 	division = {
 		name = "Division de Marche de Tunis"
-		location = 11969  # Tunis
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -198,7 +198,7 @@ units = {
 	#Syrie
 	division = {
 		name = "Division du Levant"
-		location = 4111  # Damas
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -206,7 +206,7 @@ units = {
 
 	division = {
 		name = "Division du Levant 2"
-		location = 4111  # Damas
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
@@ -214,7 +214,7 @@ units = {
 
 	division = {
 		name = "Division du Levant 3"
-		location = 4111  # Damas
+		location = 6613  # Lyon
 		division_template = "Division d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5

@@ -64,7 +64,7 @@ units = {
 	#
 	division= {
 		name = "1. Phalange Africaine"
-		location = 7069  # casablanca
+		location = 6613  # Lyon
 		division_template = "Régiment d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.4
@@ -73,7 +73,7 @@ units = {
 
 	division= {
 		name = "2. Phalange Africaine"
-		location = 7069  # casablanca
+		location = 6613  # Lyon
 		division_template = "Régiment d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.4
@@ -82,7 +82,7 @@ units = {
 
 	division= {
 		name = "3. Phalange Africaine"
-		location = 7132  # algiers
+		location = 6613  # Lyon
 		division_template = "Régiment d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.4
@@ -91,7 +91,7 @@ units = {
 
 	division= {
 		name = "4. Phalange Africaine"
-		location = 7132  # algiers
+		location = 6613  # Lyon
 		division_template = "Régiment d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.4
@@ -100,7 +100,7 @@ units = {
 
 	division= {
 		name = "5. Phalange Africaine"
-		location = 7132  # algiers
+		location = 6613  # Lyon
 		division_template = "Régiment d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.4
@@ -109,7 +109,7 @@ units = {
 
 	division= {
 		name = "6. Phalange Africaine"
-		location = 7132  # algiers
+		location = 6613  # Lyon
 		division_template = "Régiment d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.4
@@ -118,7 +118,7 @@ units = {
 
 	division= {
 		name = "7. Phalange Africaine"
-		location = 7132  # algiers
+		location = 6613  # Lyon
 		division_template = "Régiment d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.4
@@ -127,7 +127,7 @@ units = {
 
 	division= {
 		name = "8. Phalange Africaine"
-		location = 7132  # algiers
+		location = 6613  # Lyon
 		division_template = "Régiment d'Infanterie Vichy"
 		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.3
