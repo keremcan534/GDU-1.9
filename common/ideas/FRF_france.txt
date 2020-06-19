@@ -877,7 +877,7 @@ ideas = {
 
 
 		FRF_charles_huntziger = {
-			ledger = army
+
 			
 			picture = charles_huntziger
 		
@@ -901,7 +901,7 @@ ideas = {
 
 
 		FRF_alfred_heurtaux = {
-			ledger = air
+
 			
 			picture = alfred_heurtaux
 		
@@ -922,7 +922,8 @@ ideas = {
 		}
 		
 		FRF_rene_prioux = {
-			ledger = army
+
+			
 			picture = rene_prioux
 		
 			allowed = {
@@ -944,7 +945,7 @@ ideas = {
 		}	
 
 		FRF_martial_valin = {
-			ledger = air
+
 			
 			picture = martial_valin
 		
@@ -962,7 +963,7 @@ ideas = {
 		}
 
 		FRF_jean_francois_jannekeyn = {
-			ledger = air
+
 			
 			picture = jean_francois_jannekeyn
 		
@@ -991,7 +992,7 @@ ideas = {
 		}
 
 		FRF_jean_de_laborde = {
-			ledger = navy
+
 			
 			picture = jean_de_laborde
 		
@@ -1021,7 +1022,7 @@ ideas = {
 		}
 
 		FRF_emile_muselier = {
-			ledger = navy
+
 			
 			picture = emile_muselier
 		
@@ -1143,10 +1144,13 @@ ideas = {
 			research_bonus = {
 				motorized_equipment = 0.15
 			}
+			research_bonus = {
+				mechanized_equipment = 0.10
+			}
 
 			traits = { motorized_equipment_manufacturer }
 
-	}
+		}
 
 		FRF_mas = {
 
@@ -1337,7 +1341,7 @@ ideas = {
 
 	theorist = {
 		FRF_charles_de_gaulle = {
-			ledger = army
+
 			picture = charles_de_gaulle
 
 			allowed = {
@@ -1365,7 +1369,7 @@ ideas = {
 		}
 
 		FRF_henri_giraud = {
-			ledger = army
+
 			picture = henri_giraud
 
 			allowed = {
@@ -1390,7 +1394,7 @@ ideas = {
 		}
 
 		FRF_louis_kahn = {
-			ledger = navy
+
 			picture = louis_kahn
 
 
@@ -1408,7 +1412,7 @@ ideas = {
 		}
 
 		FRF_jean_decoux = {
-			ledger = navy
+
 			picture = jean_decoux
 
 
@@ -1428,7 +1432,7 @@ ideas = {
 		}
 
 		FRF_victor_denain = {
-			ledger = air
+
 			picture = victor_denain
 
 			allowed = {
@@ -1458,7 +1462,7 @@ ideas = {
 		}
 
 		FRF_jean_marie_bergeret = {
-			ledger = air
+
 			picture = jean_marie_bergeret
 
 			allowed = {
@@ -1479,7 +1483,7 @@ ideas = {
 		}
 
 		FRF_frederic_irene_joliot_curie = {
-			ledger = army
+
 			picture = frederic_irene_joliot_curie
 
 

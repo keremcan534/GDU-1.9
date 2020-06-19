@@ -13,7 +13,7 @@ set_research_slots = 3
 add_timed_idea = { idea = airandnavy_idea days = 1172 }
 # Starting tech
 set_technology = {
-	#FRA_inf_cav_tech = 1
+	FRA_inf_cav_tech = 1
 	infantry_weapons1 = 1
 	tech_support = 1
 	tech_recon = 1
@@ -106,14 +106,14 @@ add_equipment_to_stockpile = {
 } 
 add_equipment_to_stockpile = {
          type = gw_tank_equipment
-         amount = 0
+         amount = 2400
          producer = FRA
 } 
 add_equipment_to_stockpile = {
          type = light_tank_equipment_1
-         amount = 2480
+         amount = 480
          producer = FRA
-}
+} 
 
 add_equipment_to_stockpile = {
 	type = anti_air_equipment_1
@@ -146,11 +146,10 @@ add_ideas = {
 	FRA_victors_of_wwi
 	FRA_disjointed_government
 	FRA_protected_by_the_maginot_line
-	limited_conscription
-	low_economic_mobilisation
-	FRA_full_employment
-	FRA_political_violence
-	FRA_inefficient_economy_2
+	FRA_inflexible_industry
+	GDU_special_forces_cap
+	volunteer_only
+	GDU_refinery_prebuild_disincentive
 }
 
 #give_guarantee = CZE
@@ -162,6 +161,8 @@ create_country_leader = {
 	picture = "Portrait_France_Charles_De_Gaulle.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
+	traits = {
+	}
 }
 
 create_country_leader = {
@@ -170,6 +171,8 @@ create_country_leader = {
 	picture = "Portrait_France_Edouard_Daladier.dds"
 	expire = "1965.1.1"
 	ideology = socialism
+	traits = {
+	}
 }
 
 create_country_leader = {
@@ -178,6 +181,9 @@ create_country_leader = {
 	picture = "Portrait_France_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = 	stalinism
+	traits = {
+
+	}
 }
 
 create_country_leader = {
@@ -186,6 +192,9 @@ create_country_leader = {
 	picture = "Portrait_France_Philippe_Petain.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
+	traits = {
+
+	}
 }
 create_corps_commander = {
 	name = "Jean de Lattre de Tassigny"
