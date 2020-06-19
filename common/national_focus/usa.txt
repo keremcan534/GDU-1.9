@@ -605,7 +605,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = USA_the_giant_wakes
-		cost = 5
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
@@ -763,14 +763,14 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = USA_the_giant_wakes
-		cost = 5
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
 		available_if_capitulated = yes
-		completion_reward = {
-			add_ideas = office_of_strategic_services
-		}
+#		completion_reward = {
+#			add_ideas = office_of_strategic_services
+#		}
 	}
 
 	focus = {
