@@ -237,7 +237,7 @@ technologies = {
 	tech_engineers4 = {
 
 		engineer = {
-			entrenchment  = 2
+			entrenchment = 2
 			urban = {
 				attack = 0.1	
 				defence = 0.1
@@ -333,7 +333,7 @@ technologies = {
 	
 	tech_recon2 = {
 
-		recon = {
+		category_recon = {
 			recon = 2
 		}
 		
@@ -376,7 +376,7 @@ technologies = {
 	
 	tech_recon3 = {
 
-		recon = {
+		category_recon = {
 			recon = 2
 		}
 		path = {
@@ -417,7 +417,7 @@ technologies = {
 	}
 	tech_recon4 = {
 
-		recon = {
+		category_recon = {
 			recon = 2
 		}
 
