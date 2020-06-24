@@ -1923,7 +1923,9 @@ activate_mission = GER_relocate_industry_from_friesland
 			}
 			GER = {
 				give_resource_rights = { receiver = ROM state = 53 }
+                remove_ideas = GER_mefo_bills_1
 			}
+
 			hidden_effect = {
 			
 				128 = {
@@ -1961,6 +1963,7 @@ activate_mission = GER_relocate_industry_from_friesland
 						add_idea = stiff_upper_lip2
 					}	
 				}			
+
 				ENG = { add_ideas = war_economy }
 				country_event = { id = pfu.18 days = 30 }
 				FRA = {

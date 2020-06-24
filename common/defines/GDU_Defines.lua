@@ -15,7 +15,7 @@ NDefines.NCountry.INDUSTRY_SCORE_MULTIPLIER = 0				-- Based on number of factori
 NDefines.NCountry.PROVINCE_SCORE_MULTIPLIER = 0				-- Based on number of controlled provinces.
 
 ---------------------------	
-NDefines.NGame.GAME_SPEED_SECONDS = { 0.3, 0.15, 0.10, 0.02, 0.0 }
+NDefines.NGame.GAME_SPEED_SECONDS = { 0.2, 0.15, 0.10, 0.03, 0.0 }
 NDefines.NCountry.RESISTANCE_STRENGTH_FROM_VP = 0.0
 NDefines.NCountry.RESISTANCE_STRENGTH_FROM_NEIGHBORS = 0.0
 NDefines.NCountry.RESISTANCE_DECAY_WHEN_NO_GROWTH = 100.0

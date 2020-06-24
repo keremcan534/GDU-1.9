@@ -168,6 +168,18 @@ focus_tree = {
         ITA = {
         air_experience  = 300
                 }
+       BUL = {
+        army_experience = 50
+                }
+        SPR = {
+        army_experience = 50
+                }
+         ROM = {
+        army_experience = 50
+                }
+        HUN = {
+        army_experience = 50
+                }
         ENG = {
         army_experience = 50
                 }
