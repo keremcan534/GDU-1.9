@@ -417,6 +417,10 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = nationalism
+				set_politics = {
+					ruling_party = fascism
+					elections_allowed = no
+				}
 		}
 	}
 

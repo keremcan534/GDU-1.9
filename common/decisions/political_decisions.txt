@@ -1504,6 +1504,7 @@ political_actions = {
         allowed = {
             OR = {
                 original_tag = ENG
+                original_tag = USA
                 original_tag = FRA
                 original_tag = CAN
             }
@@ -1527,6 +1528,7 @@ political_actions = {
 			}
 			OR = {
                 original_tag = ENG
+                original_tag = USA
                 original_tag = FRA
                 original_tag = CAN
             }
@@ -1558,6 +1560,7 @@ political_actions = {
         allowed = {
             OR = {
                 original_tag = ENG
+                original_tag = USA
                 original_tag = FRA
                 original_tag = CAN
             }
@@ -1579,6 +1582,7 @@ political_actions = {
 			}
 			OR = {
                 original_tag = ENG
+                original_tag = USA
                 original_tag = FRA
                 original_tag = CAN
             }
@@ -1608,7 +1612,7 @@ political_actions = {
     	icon = generic_civil_support
 
     	visible = {
-			NOT = { has_government = fascism tag = USA }
+			NOT = { has_government = fascism }
 		}
 
 		available = {
@@ -1644,12 +1648,7 @@ political_actions = {
 				fascism > 0.45
 				GER = { has_completed_focus = GER_reestablish_free_elections }
 			}
-			modifier = {
-				add = 10
-				tag = AUS
-				fascism > 0.45
-				has_completed_focus = liberty_ethos
-			}
+			
 		}
     }
 
@@ -1690,7 +1689,7 @@ political_actions = {
     	icon = generic_civil_support
 
     	visible = {
-			NOT = { has_government = communism tag = USA }
+			NOT = { has_government = communism }
 		}
 
 		available = {
@@ -1719,14 +1718,14 @@ political_actions = {
     
 	ban_fascist_party = {
 
-		icon = GFX_decision_ban_fascist
+		icon = generic_civil_support
 
 		available = {
 			fascism < 0.2
 		}
 
 		visible = {
-			NOT = { has_government = fascism tag = USA }
+			NOT = { has_government = fascism }
 			fascism > 0
 		}
 
@@ -1819,7 +1818,7 @@ political_actions = {
 	
 	ban_communist_party = {
 
-		icon = GFX_decision_ban_communism
+		icon = generic_civil_support
 
 		available = {
 			communism < 0.2
@@ -1873,7 +1872,7 @@ political_actions = {
 	
 	institute_press_censorship_fascist_state = {
 
-		icon = GFX_decision_generic_break_treaty
+		icon = generic_political_discourse
 
 		visible = {
 			has_government = fascism
@@ -1896,10 +1895,9 @@ political_actions = {
 	
 	institute_press_censorship_democratic_state = {
 
-		icon = GFX_decision_generic_break_treaty
+		icon = generic_political_discourse
 
 		visible = {
-			NOT = { tag = USA }
 			has_government = democratic
 		}
 		
@@ -1920,7 +1918,7 @@ political_actions = {
 	
 	institute_press_censorship_communist_state = {
 
-		icon = GFX_decision_generic_break_treaty
+		icon = generic_political_discourse
 
 		visible = {
 			has_government = communism
@@ -1943,7 +1941,7 @@ political_actions = {
 	
 	institute_press_censorship_neutrality_state = {
 
-		icon = GFX_decision_generic_break_treaty
+		icon = generic_political_discourse
 
 		visible = {
 			has_government = neutrality
