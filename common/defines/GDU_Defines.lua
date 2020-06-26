@@ -442,7 +442,7 @@ NDefines.NAI.GIVE_STATE_CONTROL_MIN_CONTROL_DIFF = 0
 NDefines.NAI.GIVE_STATE_CONTROL_BASE_SCORE = 1
 NDefines.NAI.MAX_VOLUNTEER_ARMY_FRACTION = 0.0001
 
-NDefines.NNavy.AMPHIBIOUS_LANDING_PENALTY = -0.65								-- amphibious landing penalty
+NDefines.NNavy.AMPHIBIOUS_LANDING_PENALTY = -0.50								-- amphibious landing penalty
 
 NDefines.NNavy.LEADER_EXPERIENCE_SCALE = 0.0                      -- making admirals not level up in battles, similarly to generals
 
